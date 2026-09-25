@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_daily_goals_settings_0" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/main_toolbar" />
+    <LinearLayout android:orientation="vertical" style="@style/SettingSection">
+        <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:text="@string/daily_goals" app:customFont="bold" style="@style/SettingSectionTitle" />
+        <View style="@style/BlankFullDelimiter" />
+        <RelativeLayout android:tag="binding_1" style="@style/ItemWrapper">
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:text="@string/steps" app:customFont="proTextRegular" style="@style/ItemLabel" />
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:tag="binding_2" android:layout_toStartOf="@id/arrow_steps" app:customFont="proTextRegular" style="@style/ItemAction" />
+            <ImageView android:id="@id/arrow_steps" style="@style/MySettingsArrow" />
+        </RelativeLayout>
+        <View style="@style/BlankFullDelimiter" />
+        <RelativeLayout android:tag="binding_3" style="@style/ItemWrapper">
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:text="@string/calories_title" app:customFont="proTextRegular" style="@style/ItemLabel" />
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:tag="binding_4" android:layout_toStartOf="@id/arrow_calories" app:customFont="proTextRegular" style="@style/ItemAction" />
+            <ImageView android:id="@id/arrow_calories" style="@style/MySettingsArrow" />
+        </RelativeLayout>
+        <View style="@style/BlankFullDelimiter" />
+        <RelativeLayout android:tag="binding_5" style="@style/ItemWrapper">
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:text="@string/sleep_title" app:customFont="proTextRegular" style="@style/ItemLabel" />
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:tag="binding_6" android:layout_toStartOf="@id/arrow_sleep" app:customFont="proTextRegular" style="@style/ItemAction" />
+            <ImageView android:id="@id/arrow_sleep" style="@style/MySettingsArrow" />
+        </RelativeLayout>
+        <View style="@style/BlankFullDelimiter" />
+        <RelativeLayout android:tag="binding_7" style="@style/ItemWrapper">
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:text="@string/power_title" app:customFont="proTextRegular" style="@style/ItemLabel" />
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:tag="binding_8" android:layout_toStartOf="@id/arrow_power" app:customFont="proTextRegular" style="@style/ItemAction" />
+            <ImageView android:id="@id/arrow_power" style="@style/MySettingsArrow" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

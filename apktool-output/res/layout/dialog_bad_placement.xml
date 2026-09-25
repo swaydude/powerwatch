@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/dialog_bad_placement_0" android:background="@color/dark_grey" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="18.0sp" android:textColor="@color/grey" android:text="@string/bad_watch_placement" app:customFont="proTextRegular" style="@style/ShareDialogTextStyle" />
+    <View android:layout_height="1.0dp" style="@style/FullLineDelimiter" />
+    <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="16.0sp" android:textColor="@color/light_grey" android:text="@string/bad_watch_placement_description" app:customFont="proTextRegular" style="@style/ShareDialogTextStyle" />
+    <View style="@style/FullLineDelimiter" />
+    <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="16.0sp" android:textColor="@color/light_grey" android:tag="binding_1" android:text="@string/button_ok" app:customFont="proTextRegular" style="@style/ShareDialogTextStyle" />
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_firmware_available_0" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/main_toolbar" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/action_layout" android:layout_alignParentTop="true">
+                <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <View android:background="@drawable/firmware_available_banner" android:layout_width="match_parent" android:layout_height="200.0dp" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="24.0sp" android:textStyle="bold|italic" android:textColor="@color/white" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="23.0dp" android:layout_marginTop="23.0dp" />
+                        <TextView android:textSize="42.0sp" android:textStyle="bold|italic" android:textColor="@color/white" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="23.0dp" android:layout_marginTop="23.0dp" />
+                    </LinearLayout>
+                </FrameLayout>
+                <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:paddingLeft="20.0dp" android:paddingRight="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="15.0sp" android:textStyle="normal" android:layout_gravity="center_horizontal" android:tag="binding_3" android:layout_marginTop="15.0dp" android:textAllCaps="false" style="@style/SettingSectionTitle" />
+                        <TextView android:textStyle="normal" android:tag="binding_4" android:layout_marginTop="15.0dp" style="@style/ItemAction" />
+                        <TextView android:textColor="@color/white" android:tag="binding_5" android:layout_marginTop="10.0dp" style="@style/ItemAction" />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/action_layout" android:tag="binding_6" android:background="@color/update_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:animateLayoutChanges="true">
+                <Button android:textColor="@color/white" android:tag="binding_7" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="20.0dp" />
+                <LinearLayout android:orientation="vertical" android:tag="binding_8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="20.0dp" android:layout_marginTop="20.0dp" android:layout_marginRight="20.0dp" android:layout_marginBottom="20.0dp">
+                    <TextView android:textColor="@color/white" android:layout_gravity="center_horizontal" android:tag="binding_9" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <ProgressBar android:id="@id/progressBar" android:background="@color/update_progress_background" android:layout_width="match_parent" android:layout_height="2.0dp" android:layout_marginTop="10.0dp" android:indeterminate="false" android:progressTint="@color/update_progress" style="?android:progressBarStyleHorizontal" />
+                </LinearLayout>
+                <TextView android:textSize="14.0sp" android:textColor="@color/white" android:gravity="center" android:tag="binding_10" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dp" android:layout_marginBottom="20.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:tag="binding_11" android:background="@color/red" android:padding="12.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textColor="@color/white" android:layout_gravity="center" android:tag="binding_12" android:layout_width="wrap_content" android:layout_height="wrap_content" app:customFont="proTextRegular" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

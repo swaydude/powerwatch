@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_timer_settings_0" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/main_toolbar" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.super_rabbit.wheel_picker.WheelPicker android:id="@id/hour_picker" android:layout_width="0.0dp" android:layout_weight="1.0" style="@style/AlarmWheelPickerStyle" />
+                <com.super_rabbit.wheel_picker.WheelPicker android:id="@id/minute_picker" android:layout_width="0.0dp" android:layout_weight="1.0" style="@style/AlarmWheelPickerStyle" />
+                <com.super_rabbit.wheel_picker.WheelPicker android:id="@id/seconds_picker" android:layout_width="0.0dp" android:layout_weight="1.0" style="@style/AlarmWheelPickerStyle" />
+            </LinearLayout>
+            <View android:layout_gravity="center" android:background="@color/red" android:visibility="gone" android:layout_width="match_parent" android:layout_height="2.0dp" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="20.0dp" android:paddingRight="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View style="@style/BlankFullDelimiter" />
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:enabled="false" android:textColor="@color/grey" android:id="@id/reset_view" android:background="@drawable/timer_reset_button" android:text="@string/reset" style="@style/TimerControlStyle" />
+                <TextView android:layout_gravity="end" android:id="@id/start_view" android:background="@drawable/timer_start_button" android:text="@string/start" style="@style/TimerControlStyle" />
+                <TextView android:layout_gravity="end" android:id="@id/pause_view" android:background="@drawable/timer_start_button" android:visibility="gone" android:text="@string/pause" style="@style/TimerControlStyle" />
+            </FrameLayout>
+            <View style="@style/BlankFullDelimiter" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

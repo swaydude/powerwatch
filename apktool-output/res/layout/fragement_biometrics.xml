@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragement_biometrics_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:layout_gravity="start|center" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/weight" app:customFont="proTextRegular" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/grey" android:gravity="center" android:layout_gravity="end|center" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="50.0dp" />
+    </FrameLayout>
+    <View android:background="@color/grey" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <FrameLayout android:tag="binding_4" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:layout_gravity="start|center" android:tag="binding_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/height" app:customFont="proTextRegular" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/grey" android:gravity="center" android:layout_gravity="end|center" android:tag="binding_6" android:layout_width="wrap_content" android:layout_height="50.0dp" />
+    </FrameLayout>
+    <View android:background="@color/grey" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <FrameLayout android:tag="binding_7" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:layout_gravity="start|center" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/age" app:customFont="proTextRegular" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/grey" android:gravity="center" android:layout_gravity="end|center" android:tag="binding_9" android:layout_width="wrap_content" android:layout_height="50.0dp" />
+    </FrameLayout>
+    <View android:background="@color/grey" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <FrameLayout android:tag="binding_10" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:layout_gravity="start|center" android:tag="binding_11" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gender" app:customFont="proTextRegular" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/grey" android:gravity="center" android:layout_gravity="end|center" android:tag="binding_12" android:layout_width="wrap_content" android:layout_height="50.0dp" />
+    </FrameLayout>
+    <View android:background="@color/grey" android:layout_width="match_parent" android:layout_height="1.0dp" />
+    <FrameLayout android:tag="binding_13" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:layout_gravity="start|center" android:tag="binding_14" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/language" app:customFont="proTextRegular" />
+        <TextView android:textSize="18.0sp" android:textColor="@color/grey" android:gravity="center" android:layout_gravity="end|center" android:tag="binding_15" android:layout_width="wrap_content" android:layout_height="50.0dp" />
+    </FrameLayout>
+    <View android:tag="binding_16" android:background="@color/grey" android:layout_width="match_parent" android:layout_height="1.0dp" />
+</LinearLayout>

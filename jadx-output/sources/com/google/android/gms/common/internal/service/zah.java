@@ -1,0 +1,31 @@
+package com.google.android.gms.common.internal.service;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-base@@17.1.0 */
+/* JADX INFO: loaded from: classes.dex */
+public final class zah extends com.google.android.gms.common.internal.GmsClient<com.google.android.gms.common.internal.service.zam> {
+    public zah(android.content.Context context, android.os.Looper looper, com.google.android.gms.common.internal.ClientSettings clientSettings, com.google.android.gms.common.api.GoogleApiClient.ConnectionCallbacks connectionCallbacks, com.google.android.gms.common.api.GoogleApiClient.OnConnectionFailedListener onConnectionFailedListener) {
+        super(context, looper, 39, clientSettings, connectionCallbacks, onConnectionFailedListener);
+    }
+
+    @Override // com.google.android.gms.common.internal.BaseGmsClient
+    protected final java.lang.String getServiceDescriptor() {
+        return "com.google.android.gms.common.internal.service.ICommonService";
+    }
+
+    @Override // com.google.android.gms.common.internal.BaseGmsClient
+    public final java.lang.String getStartServiceAction() {
+        return "com.google.android.gms.common.service.START";
+    }
+
+    @Override // com.google.android.gms.common.internal.BaseGmsClient
+    protected final /* synthetic */ android.os.IInterface createServiceInterface(android.os.IBinder iBinder) {
+        if (iBinder == null) {
+            return null;
+        }
+        android.os.IInterface iInterfaceQueryLocalInterface = iBinder.queryLocalInterface("com.google.android.gms.common.internal.service.ICommonService");
+        if (iInterfaceQueryLocalInterface instanceof com.google.android.gms.common.internal.service.zam) {
+            return (com.google.android.gms.common.internal.service.zam) iInterfaceQueryLocalInterface;
+        }
+        return new com.google.android.gms.common.internal.service.zal(iBinder);
+    }
+}

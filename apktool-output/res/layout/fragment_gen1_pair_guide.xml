@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@drawable/main_background" android:padding="20.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:layout_width="match_parent" android:layout_height="120.0dp" layout="@layout/login_toolbar" />
+        <TextView android:textStyle="bold" android:textColor="@color/colorPrimary" android:gravity="center" android:id="@id/guide_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Press SET button on your watch and start searching" />
+        <ImageView android:layout_gravity="end|center" android:id="@id/arrows_model" android:layout_width="290.0dp" android:layout_height="390.0dp" android:layout_marginBottom="15.0dp" android:src="@mipmap/powerwatch_x" android:layout_marginEnd="28.0dp" />
+    </LinearLayout>
+    <Button android:textColor="@color/white" android:layout_gravity="center|bottom" android:id="@id/start_search_button" android:background="@drawable/rounded_red_button_background" android:padding="5.0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Start search" />
+</FrameLayout>

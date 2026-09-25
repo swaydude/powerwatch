@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_watch_alarm_0" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/main_toolbar" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.super_rabbit.wheel_picker.WheelPicker android:id="@id/hour_picker" style="@style/AlarmWheelPickerStyle" />
+                <com.super_rabbit.wheel_picker.WheelPicker android:id="@id/minute_picker" style="@style/AlarmWheelPickerStyle" />
+                <com.super_rabbit.wheel_picker.WheelPicker android:id="@id/am_pm_picker" app:wrapSelectorWheel="false" style="@style/AlarmWheelPickerStyle" />
+            </LinearLayout>
+            <View android:layout_gravity="center" android:background="@color/red" android:visibility="gone" android:layout_width="match_parent" android:layout_height="2.0dp" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:paddingLeft="20.0dp" android:paddingRight="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View style="@style/BlankFullDelimiter" />
+            <RelativeLayout android:tag="binding_1" style="@style/ItemWrapper">
+                <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:text="@string/repeat_set" app:customFont="proTextRegular" style="@style/ItemLabel" />
+                <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:tag="binding_2" android:layout_toStartOf="@id/arrow_alarm_set" app:customFont="proTextRegular" style="@style/ItemAction" />
+                <ImageView android:id="@id/arrow_alarm_set" style="@style/MySettingsArrow" />
+            </RelativeLayout>
+            <View style="@style/BlankFullDelimiter" />
+            <RelativeLayout android:tag="binding_3" style="@style/ItemWrapper">
+                <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:text="@string/activation" app:customFont="proTextRegular" style="@style/ItemLabel" />
+                <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:tag="binding_4" android:layout_toStartOf="@id/arrow_activation_set" app:customFont="proTextRegular" style="@style/ItemAction" />
+                <ImageView android:id="@id/arrow_activation_set" style="@style/MySettingsArrow" />
+            </RelativeLayout>
+            <View style="@style/BlankFullDelimiter" />
+            <LinearLayout android:orientation="vertical" android:id="@id/previous_alarm_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dp">
+                <View style="@style/BlankFullDelimiter" />
+                <RelativeLayout style="@style/ItemWrapper">
+                    <TextView android:text="@string/previous_alarm" style="@style/ItemLabel" />
+                    <TextView android:textColor="@color/grey" android:id="@id/old_alarm_label" android:layout_toStartOf="@id/activation_layout" style="@style/ItemLabel" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/activation_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="10.0dp" android:layout_alignParentEnd="true">
+                        <TextView android:textSize="16.0sp" android:textColor="@color/grey" android:id="@id/old_alarm_repeat_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textSize="16.0sp" android:textColor="@color/grey" android:id="@id/old_alarm_activation_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

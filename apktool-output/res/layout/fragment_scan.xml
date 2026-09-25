@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/fragment_scan_0" android:background="@drawable/white_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <powerwatch.matrix.com.pwgen2android.pair.camera.CustomWrapper android:layout_width="match_parent" android:layout_height="match_parent">
+        <powerwatch.matrix.com.pwgen2android.pair.camera.OverlayView android:id="@id/cicleOverlay" android:layout_width="match_parent" android:layout_height="match_parent">
+            <powerwatch.matrix.com.pwgen2android.pair.camera.CameraPreview android:id="@id/camera_preview" android:layout_width="match_parent" android:layout_height="match_parent" />
+        </powerwatch.matrix.com.pwgen2android.pair.camera.OverlayView>
+        <powerwatch.matrix.com.pwgen2android.pair.camera.CustomLinear android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <powerwatch.matrix.com.pwgen2android.pair.camera.CustomTextView android:id="@id/dashed" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="120.0dp" />
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textColor="@android:color/white" android:gravity="center" android:id="@id/main_text_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="60.0dp" android:text="@string/place_watch" app:customFont="proTextRegular" />
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textColor="@color/dark_blue_chart" android:gravity="center" android:id="@id/unable_to_scan_text" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:text="@string/unable_to_enter_pairing_code_manually" app:customFont="proTextRegular" />
+        </powerwatch.matrix.com.pwgen2android.pair.camera.CustomLinear>
+    </powerwatch.matrix.com.pwgen2android.pair.camera.CustomWrapper>
+    <View android:background="@drawable/top_overlay_drawable_white" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/login_toolbar" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/dark_grey" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="38.0dp" android:layout_marginStart="10.0dp" android:layout_toStartOf="@id/app_toggle" android:layout_alignParentStart="true">
+            <ImageView android:layout_gravity="end|center" android:id="@id/header_arrow" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/left_arrow_grey" />
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="16.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="5.0dp" android:layout_marginEnd="10.0dp" app:customFont="proTextRegular" />
+        </LinearLayout>
+        <androidx.appcompat.widget.SwitchCompat android:textColor="@color/white" android:layout_gravity="end|center" android:id="@id/app_toggle" android:layout_width="wrap_content" android:layout_height="38.0dp" android:checked="true" android:textOn="" android:textOff="" android:text="@string/enable_other_apps" android:layout_marginEnd="20.0dp" android:layout_alignParentEnd="true" app:showText="false" />
+    </RelativeLayout>
+    <View android:background="@color/black" android:layout_width="match_parent" android:layout_height="2.0dp" />
+</LinearLayout>

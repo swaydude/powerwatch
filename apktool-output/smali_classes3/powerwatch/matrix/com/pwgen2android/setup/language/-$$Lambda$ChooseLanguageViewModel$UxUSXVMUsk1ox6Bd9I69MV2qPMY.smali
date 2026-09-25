@@ -1,0 +1,50 @@
+.class public final synthetic Lpowerwatch/matrix/com/pwgen2android/setup/language/-$$Lambda$ChooseLanguageViewModel$UxUSXVMUsk1ox6Bd9I69MV2qPMY;
+.super Ljava/lang/Object;
+.source "lambda"
+
+# interfaces
+.implements Lio/reactivex/functions/Function;
+
+
+# instance fields
+.field public final synthetic f$0:Lpowerwatch/matrix/com/pwgen2android/main/dashboard/runningcomponent/editActivity/chooseActityType/UIChooseItemView;
+
+.field public final synthetic f$1:Lpowerwatch/matrix/com/pwgen2android/setup/language/ChooseLanguageViewModel;
+
+.field public final synthetic f$2:Landroid/content/Context;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lpowerwatch/matrix/com/pwgen2android/main/dashboard/runningcomponent/editActivity/chooseActityType/UIChooseItemView;Lpowerwatch/matrix/com/pwgen2android/setup/language/ChooseLanguageViewModel;Landroid/content/Context;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lpowerwatch/matrix/com/pwgen2android/setup/language/-$$Lambda$ChooseLanguageViewModel$UxUSXVMUsk1ox6Bd9I69MV2qPMY;->f$0:Lpowerwatch/matrix/com/pwgen2android/main/dashboard/runningcomponent/editActivity/chooseActityType/UIChooseItemView;
+
+    iput-object p2, p0, Lpowerwatch/matrix/com/pwgen2android/setup/language/-$$Lambda$ChooseLanguageViewModel$UxUSXVMUsk1ox6Bd9I69MV2qPMY;->f$1:Lpowerwatch/matrix/com/pwgen2android/setup/language/ChooseLanguageViewModel;
+
+    iput-object p3, p0, Lpowerwatch/matrix/com/pwgen2android/setup/language/-$$Lambda$ChooseLanguageViewModel$UxUSXVMUsk1ox6Bd9I69MV2qPMY;->f$2:Landroid/content/Context;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 3
+
+    iget-object v0, p0, Lpowerwatch/matrix/com/pwgen2android/setup/language/-$$Lambda$ChooseLanguageViewModel$UxUSXVMUsk1ox6Bd9I69MV2qPMY;->f$0:Lpowerwatch/matrix/com/pwgen2android/main/dashboard/runningcomponent/editActivity/chooseActityType/UIChooseItemView;
+
+    iget-object v1, p0, Lpowerwatch/matrix/com/pwgen2android/setup/language/-$$Lambda$ChooseLanguageViewModel$UxUSXVMUsk1ox6Bd9I69MV2qPMY;->f$1:Lpowerwatch/matrix/com/pwgen2android/setup/language/ChooseLanguageViewModel;
+
+    iget-object v2, p0, Lpowerwatch/matrix/com/pwgen2android/setup/language/-$$Lambda$ChooseLanguageViewModel$UxUSXVMUsk1ox6Bd9I69MV2qPMY;->f$2:Landroid/content/Context;
+
+    check-cast p1, Lpowerwatch/matrix/com/pwgen2android/shared/data/models/User;
+
+    invoke-static {v0, v1, v2, p1}, Lpowerwatch/matrix/com/pwgen2android/setup/language/ChooseLanguageViewModel;->lambda$UxUSXVMUsk1ox6Bd9I69MV2qPMY(Lpowerwatch/matrix/com/pwgen2android/main/dashboard/runningcomponent/editActivity/chooseActityType/UIChooseItemView;Lpowerwatch/matrix/com/pwgen2android/setup/language/ChooseLanguageViewModel;Landroid/content/Context;Lpowerwatch/matrix/com/pwgen2android/shared/data/models/User;)Lio/reactivex/CompletableSource;
+
+    move-result-object p1
+
+    return-object p1
+.end method

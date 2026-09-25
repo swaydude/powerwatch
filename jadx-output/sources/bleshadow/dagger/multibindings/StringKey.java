@@ -1,0 +1,10 @@
+package bleshadow.dagger.multibindings;
+
+/* JADX INFO: loaded from: classes.dex */
+@java.lang.annotation.Target({java.lang.annotation.ElementType.METHOD})
+@bleshadow.dagger.MapKey
+@java.lang.annotation.Documented
+@java.lang.annotation.Retention(java.lang.annotation.RetentionPolicy.RUNTIME)
+public @interface StringKey {
+    java.lang.String value();
+}

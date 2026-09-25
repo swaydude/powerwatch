@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/black" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@mipmap/alert_icon" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dp" android:text="@string/bad_watch_placement" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/grey" android:layout_gravity="center" android:id="@id/why_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/btn_why" android:layout_marginStart="10.0dp" />
+</LinearLayout>

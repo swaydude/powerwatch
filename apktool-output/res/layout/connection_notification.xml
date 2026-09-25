@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="10.0dp" android:paddingEnd="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/steps_notifications" android:layout_gravity="center_vertical" android:id="@id/notification_steps" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" />
+    <TextView android:textColor="@color/steps_notifications" android:layout_gravity="center_vertical" android:id="@id/steps_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/steps" android:textAllCaps="false" android:layout_marginStart="6.0dp" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/calories_notifications" android:layout_gravity="center_vertical" android:id="@id/notification_calories" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_marginStart="10.0dp" />
+    <TextView android:textColor="@color/calories_notifications" android:layout_gravity="center_vertical" android:id="@id/notification_calories_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" Cal" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/distance_notification" android:layout_gravity="center_vertical" android:id="@id/notification_distance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_marginStart="10.0dp" />
+    <TextView android:textColor="@color/distance_notification" android:layout_gravity="center_vertical" android:id="@id/notification_distance_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" km" />
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="20.0dp" android:layout_height="20.0dp" android:src="@drawable/ic_cardiogram" android:layout_marginStart="10.0dp" />
+    <TextView android:textColor="@color/heart_rate_notifications" android:layout_gravity="center_vertical" android:id="@id/notification_heart_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_marginStart="5.0dp" />
+</LinearLayout>

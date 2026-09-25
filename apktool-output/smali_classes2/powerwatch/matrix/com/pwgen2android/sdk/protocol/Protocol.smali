@@ -1,0 +1,75 @@
+.class public interface abstract Lpowerwatch/matrix/com/pwgen2android/sdk/protocol/Protocol;
+.super Ljava/lang/Object;
+.source "Protocol.kt"
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u00002\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0008f\u0018\u00002\u00020\u0001J\u0008\u0010\u0002\u001a\u00020\u0003H&J\u0010\u0010\u0004\u001a\u00020\u00032\u0006\u0010\u0005\u001a\u00020\u0006H&J\u0008\u0010\u0007\u001a\u00020\u0008H&J\u000e\u0010\t\u001a\u0008\u0012\u0004\u0012\u00020\u000b0\nH&J\u0008\u0010\u000c\u001a\u00020\u0003H&J\u0016\u0010\r\u001a\u0008\u0012\u0004\u0012\u00020\u000b0\u000e2\u0006\u0010\u000f\u001a\u00020\u000bH&\u00a8\u0006\u0010"
+    }
+    d2 = {
+        "Lpowerwatch/matrix/com/pwgen2android/sdk/protocol/Protocol;",
+        "",
+        "close",
+        "Lio/reactivex/Completable;",
+        "connectToChannel",
+        "channel",
+        "Lpowerwatch/matrix/com/pwgen2android/sdk/channels/CommunicationChannel;",
+        "getType",
+        "Lpowerwatch/matrix/com/pwgen2android/sdk/protocol/ProtocolType;",
+        "messageOutput",
+        "Lio/reactivex/Observable;",
+        "Lpowerwatch/matrix/com/pwgen2android/sdk/model/ProtocolMessage;",
+        "resubscribe",
+        "sendMessage",
+        "Lio/reactivex/Single;",
+        "message",
+        "app_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x5,
+        0x1
+    }
+    xi = 0x30
+.end annotation
+
+
+# virtual methods
+.method public abstract close()Lio/reactivex/Completable;
+.end method
+
+.method public abstract connectToChannel(Lpowerwatch/matrix/com/pwgen2android/sdk/channels/CommunicationChannel;)Lio/reactivex/Completable;
+.end method
+
+.method public abstract getType()Lpowerwatch/matrix/com/pwgen2android/sdk/protocol/ProtocolType;
+.end method
+
+.method public abstract messageOutput()Lio/reactivex/Observable;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lio/reactivex/Observable<",
+            "Lpowerwatch/matrix/com/pwgen2android/sdk/model/ProtocolMessage;",
+            ">;"
+        }
+    .end annotation
+.end method
+
+.method public abstract resubscribe()Lio/reactivex/Completable;
+.end method
+
+.method public abstract sendMessage(Lpowerwatch/matrix/com/pwgen2android/sdk/model/ProtocolMessage;)Lio/reactivex/Single;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lpowerwatch/matrix/com/pwgen2android/sdk/model/ProtocolMessage;",
+            ")",
+            "Lio/reactivex/Single<",
+            "Lpowerwatch/matrix/com/pwgen2android/sdk/model/ProtocolMessage;",
+            ">;"
+        }
+    .end annotation
+.end method

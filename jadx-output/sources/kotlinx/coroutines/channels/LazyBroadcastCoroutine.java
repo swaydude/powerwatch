@@ -1,0 +1,34 @@
+package kotlinx.coroutines.channels;
+
+/* JADX INFO: compiled from: Broadcast.kt */
+/* JADX INFO: loaded from: classes2.dex */
+@kotlin.Metadata(bv = {1, 0, 3}, d1 = {"\u0000:\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u0002\n\u0002\u0010\u0000\n\u0002\u0018\u0002\n\u0002\b\u0004\n\u0002\u0018\u0002\n\u0000\b\u0002\u0018\u0000*\u0004\b\u0000\u0010\u00012\b\u0012\u0004\u0012\u0002H\u00010\u0002BM\u0012\u0006\u0010\u0003\u001a\u00020\u0004\u0012\f\u0010\u0005\u001a\b\u0012\u0004\u0012\u00028\u00000\u0006\u0012-\u0010\u0007\u001a)\b\u0001\u0012\n\u0012\b\u0012\u0004\u0012\u00028\u00000\t\u0012\n\u0012\b\u0012\u0004\u0012\u00020\u000b0\n\u0012\u0006\u0012\u0004\u0018\u00010\f0\b¢\u0006\u0002\b\rø\u0001\u0000¢\u0006\u0002\u0010\u000eJ\b\u0010\u0010\u001a\u00020\u000bH\u0014J\u000e\u0010\u0011\u001a\b\u0012\u0004\u0012\u00028\u00000\u0012H\u0016R<\u0010\u0007\u001a+\b\u0001\u0012\n\u0012\b\u0012\u0004\u0012\u00028\u00000\t\u0012\n\u0012\b\u0012\u0004\u0012\u00020\u000b0\n\u0012\u0006\u0012\u0004\u0018\u00010\f\u0018\u00010\b¢\u0006\u0002\b\rX\u0082\u000eø\u0001\u0000¢\u0006\u0004\n\u0002\u0010\u000f\u0082\u0002\u0004\n\u0002\b\u0019¨\u0006\u0013"}, d2 = {"Lkotlinx/coroutines/channels/LazyBroadcastCoroutine;", "E", "Lkotlinx/coroutines/channels/BroadcastCoroutine;", "parentContext", "Lkotlin/coroutines/CoroutineContext;", "channel", "Lkotlinx/coroutines/channels/BroadcastChannel;", "block", "Lkotlin/Function2;", "Lkotlinx/coroutines/channels/ProducerScope;", "Lkotlin/coroutines/Continuation;", "", "", "Lkotlin/ExtensionFunctionType;", "(Lkotlin/coroutines/CoroutineContext;Lkotlinx/coroutines/channels/BroadcastChannel;Lkotlin/jvm/functions/Function2;)V", "Lkotlin/jvm/functions/Function2;", "onStart", "openSubscription", "Lkotlinx/coroutines/channels/ReceiveChannel;", "kotlinx-coroutines-core"}, k = 1, mv = {1, 1, 13})
+final class LazyBroadcastCoroutine<E> extends kotlinx.coroutines.channels.BroadcastCoroutine<E> {
+    private kotlin.jvm.functions.Function2<? super kotlinx.coroutines.channels.ProducerScope<? super E>, ? super kotlin.coroutines.Continuation<? super kotlin.Unit>, ? extends java.lang.Object> block;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    public LazyBroadcastCoroutine(kotlin.coroutines.CoroutineContext parentContext, kotlinx.coroutines.channels.BroadcastChannel<E> channel, kotlin.jvm.functions.Function2<? super kotlinx.coroutines.channels.ProducerScope<? super E>, ? super kotlin.coroutines.Continuation<? super kotlin.Unit>, ? extends java.lang.Object> block) {
+        super(parentContext, channel, false);
+        kotlin.jvm.internal.Intrinsics.checkParameterIsNotNull(parentContext, "parentContext");
+        kotlin.jvm.internal.Intrinsics.checkParameterIsNotNull(channel, "channel");
+        kotlin.jvm.internal.Intrinsics.checkParameterIsNotNull(block, "block");
+        this.block = block;
+    }
+
+    @Override // kotlinx.coroutines.channels.BroadcastCoroutine, kotlinx.coroutines.channels.BroadcastChannel
+    public kotlinx.coroutines.channels.ReceiveChannel<E> openSubscription() {
+        kotlinx.coroutines.channels.ReceiveChannel<E> receiveChannelOpenSubscription = get_channel().openSubscription();
+        start();
+        return receiveChannelOpenSubscription;
+    }
+
+    @Override // kotlinx.coroutines.AbstractCoroutine
+    protected void onStart() {
+        kotlin.jvm.functions.Function2<? super kotlinx.coroutines.channels.ProducerScope<? super E>, ? super kotlin.coroutines.Continuation<? super kotlin.Unit>, ? extends java.lang.Object> function2 = this.block;
+        if (function2 == null) {
+            throw new java.lang.IllegalStateException("Already started".toString());
+        }
+        this.block = (kotlin.jvm.functions.Function2) null;
+        kotlinx.coroutines.intrinsics.CancellableKt.startCoroutineCancellable(function2, this, this);
+    }
+}

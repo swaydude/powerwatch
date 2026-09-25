@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_realtime_0" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dp" android:layout_marginStart="20.0dp">
+        <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="30.0sp" android:textStyle="bold" android:textColor="@color/yellow" android:gravity="center" android:id="@id/today_title" android:tag="binding_1" android:layout_width="wrap_content" android:layout_height="50.0dp" app:customFont="proDisplayBold" />
+        <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textColor="@android:color/darker_gray" android:id="@id/current_date_title" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/today_title" app:customFont="proTextRegular" />
+    </RelativeLayout>
+    <FrameLayout android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="70.0dp" android:layout_marginRight="70.0dp" android:layout_marginBottom="10.0dp">
+        <powerwatch.matrix.com.pwgen2android.main.dashboard.realtime.DashedCircleView android:layout_gravity="center" android:id="@id/main_inner_circle" android:layout_width="wrap_content" android:layout_height="match_parent" app:firstValueColor="@color/white" app:secondValueColor="@color/yellow" />
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="14.0sp" android:textColor="@color/white" android:text="@string/power_from_body" app:customFont="bold" style="@style/dashedCircleTextView" />
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="24.0sp" android:textColor="@color/white" android:tag="binding_4" android:layout_width="wrap_content" android:textAllCaps="false" app:customFont="exLight" style="@style/dashedCircleTextView" />
+                <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="14.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:text="@string/mw_unit" android:textAllCaps="false" app:customFont="light" style="@style/dashedCircleTextView" />
+            </LinearLayout>
+            <View android:background="@color/grey" android:layout_width="match_parent" android:layout_height="1.0dp" android:layout_marginTop="10.0dp" android:layout_marginBottom="10.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" />
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="14.0sp" android:textColor="@color/yellow" android:text="@string/power_from_light" app:customFont="bold" style="@style/dashedCircleTextView" />
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="24.0sp" android:textColor="@color/yellow" android:tag="binding_5" android:layout_width="wrap_content" android:textAllCaps="false" app:customFont="light" style="@style/dashedCircleTextView" />
+                <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="14.0sp" android:textColor="@color/yellow" android:layout_width="wrap_content" android:text="@string/mw_unit" android:textAllCaps="false" app:customFont="light" style="@style/dashedCircleTextView" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dp" android:layout_marginTop="20.0dp" android:layout_marginRight="20.0dp" android:layout_marginBottom="30.0dp">
+        <FrameLayout style="@style/dashedCircle">
+            <powerwatch.matrix.com.pwgen2android.main.dashboard.realtime.DashedCircleView android:id="@id/steps_circle" android:tag="binding_6" android:layout_width="match_parent" android:layout_height="match_parent" app:circleWidth="6.0dp" app:firstValueColor="#00dd52" />
+            <LinearLayout style="@style/dashedCircleContent">
+                <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="16.0sp" android:tag="binding_7" app:customFont="light" style="@style/dashedCircleTextView" />
+                <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="10.0sp" android:textColor="#00dd52" android:text="@string/steps" app:customFont="bold" style="@style/dashedCircleTextView" />
+                <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="12.0sp" android:textColor="@color/white" android:tag="binding_8" android:textAllCaps="false" app:customFont="regular" style="@style/dashedCircleTextView" />
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout style="@style/dashedCircle">
+            <powerwatch.matrix.com.pwgen2android.main.dashboard.realtime.DashedCircleView android:id="@id/calories_circle" android:tag="binding_9" android:layout_width="match_parent" android:layout_height="match_parent" app:circleWidth="6.0dp" app:firstValueColor="#00cbff" />
+            <LinearLayout style="@style/dashedCircleContent">
+                <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="16.0sp" android:tag="binding_10" app:customFont="light" style="@style/dashedCircleTextView" />
+                <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="10.0sp" android:textColor="#00cbff" android:text="@string/calories_title" app:customFont="bold" style="@style/dashedCircleTextView" />
+                <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <ImageView android:layout_gravity="center_vertical" android:layout_width="12.0dp" android:layout_height="12.0dp" android:src="@drawable/ic_cardiogram" />
+                        <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="12.0sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:tag="binding_11" android:layout_marginStart="3.0dp" app:customFont="regular" style="@style/dashedCircleTextView" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <FrameLayout android:layout_marginEnd="0.0dp" style="@style/dashedCircle">
+            <powerwatch.matrix.com.pwgen2android.main.dashboard.realtime.DashedCircleView android:id="@id/sleep_circle" android:tag="binding_12" android:layout_width="match_parent" android:layout_height="match_parent" app:circleValue="123" app:circleWidth="6.0dp" app:firstValueColor="#5856de" />
+            <LinearLayout style="@style/dashedCircleContent">
+                <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="16.0sp" android:tag="binding_13" app:customFont="light" style="@style/dashedCircleTextView" />
+                <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="10.0sp" android:textColor="@color/dark_purple_chart" android:text="@string/sleep_title" app:customFont="bold" style="@style/dashedCircleTextView" />
+                <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="12.0sp" android:textColor="@color/white" android:tag="binding_14" app:customFont="regular" style="@style/dashedCircleTextView" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

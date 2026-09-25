@@ -1,0 +1,8 @@
+package com.google.android.gms.internal.fitness;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-fitness@@18.0.0 */
+/* JADX INFO: loaded from: classes.dex */
+final class zzhf<K, V> {
+    public final com.google.android.gms.internal.fitness.zzji zzxh;
+    public final com.google.android.gms.internal.fitness.zzji zzxi;
+}

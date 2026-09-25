@@ -1,0 +1,51 @@
+.class final Lcom/google/android/play/core/splitinstall/ab;
+.super Lcom/google/android/play/core/splitinstall/ai;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lcom/google/android/play/core/splitinstall/ai<",
+        "Ljava/lang/Void;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method constructor <init>(Lcom/google/android/play/core/splitinstall/r;Lcom/google/android/play/core/tasks/h;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lcom/google/android/play/core/tasks/h<",
+            "Ljava/lang/Void;",
+            ">;)V"
+        }
+    .end annotation
+
+    invoke-direct {p0, p1, p2}, Lcom/google/android/play/core/splitinstall/ai;-><init>(Lcom/google/android/play/core/splitinstall/r;Lcom/google/android/play/core/tasks/h;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(ILandroid/os/Bundle;)V
+    .locals 0
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Landroid/os/RemoteException;
+        }
+    .end annotation
+
+    invoke-super {p0, p1, p2}, Lcom/google/android/play/core/splitinstall/ai;->a(ILandroid/os/Bundle;)V
+
+    iget-object p1, p0, Lcom/google/android/play/core/splitinstall/ab;->a:Lcom/google/android/play/core/tasks/h;
+
+    const/4 p2, 0x0
+
+    invoke-virtual {p1, p2}, Lcom/google/android/play/core/tasks/h;->a(Ljava/lang/Object;)Z
+
+    return-void
+.end method

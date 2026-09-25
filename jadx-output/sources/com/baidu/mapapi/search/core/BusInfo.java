@@ -1,0 +1,45 @@
+package com.baidu.mapapi.search.core;
+
+/* JADX INFO: loaded from: classes.dex */
+public class BusInfo extends com.baidu.mapapi.search.core.TransitBaseInfo {
+    public static final android.os.Parcelable.Creator<com.baidu.mapapi.search.core.BusInfo> CREATOR = new com.baidu.mapapi.search.core.a();
+    private int a;
+    private int b;
+
+    public BusInfo() {
+    }
+
+    protected BusInfo(android.os.Parcel parcel) {
+        super(parcel);
+        this.a = parcel.readInt();
+        this.b = parcel.readInt();
+    }
+
+    @Override // com.baidu.mapapi.search.core.TransitBaseInfo, android.os.Parcelable
+    public int describeContents() {
+        return 0;
+    }
+
+    public int getStopNum() {
+        return this.b;
+    }
+
+    public int getType() {
+        return this.a;
+    }
+
+    public void setStopNum(int i) {
+        this.b = i;
+    }
+
+    public void setType(int i) {
+        this.a = i;
+    }
+
+    @Override // com.baidu.mapapi.search.core.TransitBaseInfo, android.os.Parcelable
+    public void writeToParcel(android.os.Parcel parcel, int i) {
+        super.writeToParcel(parcel, i);
+        parcel.writeInt(this.a);
+        parcel.writeInt(this.b);
+    }
+}

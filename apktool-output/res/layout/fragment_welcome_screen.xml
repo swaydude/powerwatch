@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_welcome_screen_0" android:background="@drawable/welcome_background" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="20.0dp" android:layout_width="match_parent" android:layout_height="160.0dp">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="84.0dp" android:layout_height="84.0dp" android:src="@mipmap/splash_icon" />
+        <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="26.0sp" android:textColor="@color/white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PowerWatch" app:customFont="medium" />
+    </LinearLayout>
+    <androidx.viewpager.widget.ViewPager android:layout_gravity="center" android:id="@id/carouselViewPager" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="6.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="3.0">
+        <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableButton android:textColor="@android:color/white" android:id="@id/getting_started_button" android:tag="binding_1" android:background="@drawable/rounded_red_button_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/get_started" android:textAllCaps="false" android:layout_marginStart="30.0dp" android:layout_marginEnd="30.0dp" app:customFont="medium" />
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp">
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="14.0sp" android:textColor="@color/grey" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/already_have_an_account" app:customFont="proTextRegular" />
+                <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="14.0sp" android:textColor="@color/red" android:layout_gravity="center_vertical" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/log_in" android:layout_marginStart="10.0dp" app:customFont="proTextRegular" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

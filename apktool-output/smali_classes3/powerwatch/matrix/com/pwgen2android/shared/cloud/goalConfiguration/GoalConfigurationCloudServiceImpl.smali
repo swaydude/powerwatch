@@ -1,0 +1,110 @@
+.class public final Lpowerwatch/matrix/com/pwgen2android/shared/cloud/goalConfiguration/GoalConfigurationCloudServiceImpl;
+.super Ljava/lang/Object;
+.source "GoalConfigurationCloudService.kt"
+
+# interfaces
+.implements Lpowerwatch/matrix/com/pwgen2android/shared/cloud/goalConfiguration/GoalConfigurationCloudService;
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000(\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0002\u0010 \n\u0002\u0018\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\u0008\u0002\u0018\u00002\u00020\u0001B\r\u0012\u0006\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004J\u0014\u0010\u0005\u001a\u000e\u0012\n\u0012\u0008\u0012\u0004\u0012\u00020\u00080\u00070\u0006H\u0016J\u0010\u0010\t\u001a\u00020\n2\u0006\u0010\u000b\u001a\u00020\u0008H\u0016R\u000e\u0010\u0002\u001a\u00020\u0003X\u0082\u0004\u00a2\u0006\u0002\n\u0000\u00a8\u0006\u000c"
+    }
+    d2 = {
+        "Lpowerwatch/matrix/com/pwgen2android/shared/cloud/goalConfiguration/GoalConfigurationCloudServiceImpl;",
+        "Lpowerwatch/matrix/com/pwgen2android/shared/cloud/goalConfiguration/GoalConfigurationCloudService;",
+        "goalConfigurationService",
+        "Lpowerwatch/matrix/com/pwgen2android/shared/cloud/crudServices/GoalConfigurationService;",
+        "(Lpowerwatch/matrix/com/pwgen2android/shared/cloud/crudServices/GoalConfigurationService;)V",
+        "getAllConfigurations",
+        "Lio/reactivex/Single;",
+        "",
+        "Lpowerwatch/matrix/com/pwgen2android/shared/data/models/GoalConfiguration;",
+        "save",
+        "Lio/reactivex/Completable;",
+        "goalConfiguration",
+        "app_release"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x5,
+        0x1
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field private final goalConfigurationService:Lpowerwatch/matrix/com/pwgen2android/shared/cloud/crudServices/GoalConfigurationService;
+
+
+# direct methods
+.method public constructor <init>(Lpowerwatch/matrix/com/pwgen2android/shared/cloud/crudServices/GoalConfigurationService;)V
+    .locals 1
+
+    const-string v0, "goalConfigurationService"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 13
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lpowerwatch/matrix/com/pwgen2android/shared/cloud/goalConfiguration/GoalConfigurationCloudServiceImpl;->goalConfigurationService:Lpowerwatch/matrix/com/pwgen2android/shared/cloud/crudServices/GoalConfigurationService;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getAllConfigurations()Lio/reactivex/Single;
+    .locals 3
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lio/reactivex/Single<",
+            "Ljava/util/List<",
+            "Lpowerwatch/matrix/com/pwgen2android/shared/data/models/GoalConfiguration;",
+            ">;>;"
+        }
+    .end annotation
+
+    .line 20
+    iget-object v0, p0, Lpowerwatch/matrix/com/pwgen2android/shared/cloud/goalConfiguration/GoalConfigurationCloudServiceImpl;->goalConfigurationService:Lpowerwatch/matrix/com/pwgen2android/shared/cloud/crudServices/GoalConfigurationService;
+
+    check-cast v0, Lpowerwatch/matrix/com/pwgen2android/shared/cloud/crudServices/GetAllService;
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x1
+
+    invoke-static {v0, v1, v2, v1}, Lpowerwatch/matrix/com/pwgen2android/shared/cloud/crudServices/GetAllService$DefaultImpls;->all$default(Lpowerwatch/matrix/com/pwgen2android/shared/cloud/crudServices/GetAllService;Ljava/util/Map;ILjava/lang/Object;)Lio/reactivex/Single;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public save(Lpowerwatch/matrix/com/pwgen2android/shared/data/models/GoalConfiguration;)Lio/reactivex/Completable;
+    .locals 3
+
+    const-string v0, "goalConfiguration"
+
+    invoke-static {p1, v0}, Lkotlin/jvm/internal/Intrinsics;->checkNotNullParameter(Ljava/lang/Object;Ljava/lang/String;)V
+
+    .line 16
+    iget-object v0, p0, Lpowerwatch/matrix/com/pwgen2android/shared/cloud/goalConfiguration/GoalConfigurationCloudServiceImpl;->goalConfigurationService:Lpowerwatch/matrix/com/pwgen2android/shared/cloud/crudServices/GoalConfigurationService;
+
+    check-cast v0, Lpowerwatch/matrix/com/pwgen2android/shared/cloud/crudServices/AddService;
+
+    const/4 v1, 0x0
+
+    const/4 v2, 0x2
+
+    invoke-static {v0, p1, v1, v2, v1}, Lpowerwatch/matrix/com/pwgen2android/shared/cloud/crudServices/AddService$DefaultImpls;->add$default(Lpowerwatch/matrix/com/pwgen2android/shared/cloud/crudServices/AddService;Ljava/lang/Object;Ljava/util/Map;ILjava/lang/Object;)Lio/reactivex/Completable;
+
+    move-result-object p1
+
+    return-object p1
+.end method

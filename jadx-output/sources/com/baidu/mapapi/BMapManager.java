@@ -1,0 +1,16 @@
+package com.baidu.mapapi;
+
+/* JADX INFO: loaded from: classes.dex */
+public class BMapManager {
+    public static void destroy() {
+        com.baidu.mapsdkplatform.comapi.a.a().d();
+    }
+
+    public static android.content.Context getContext() {
+        return com.baidu.mapsdkplatform.comapi.a.a().e();
+    }
+
+    public static void init() {
+        com.baidu.mapsdkplatform.comapi.a.a().b();
+    }
+}

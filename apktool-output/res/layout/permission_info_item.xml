@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:weightSum="10.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="2.0">
+        <ImageView android:layout_gravity="center" android:id="@id/permission_item_icon" android:layout_width="40.0dp" android:layout_height="40.0dp" android:src="@mipmap/app_icon" />
+    </FrameLayout>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="6.0">
+        <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="24.0sp" android:textColor="@color/black" android:id="@id/permission_item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:customFont="proTextRegular" />
+        <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="12.0sp" android:textColor="@color/grey" android:id="@id/permission_item_description" android:layout_width="match_parent" android:layout_height="wrap_content" app:customFont="proTextRegular" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="0.0dp" android:layout_height="match_parent" android:layout_weight="2.0">
+        <androidx.appcompat.widget.AppCompatCheckBox android:layout_gravity="center" android:id="@id/permission_item_checkbox" android:layout_width="30.0dp" android:layout_height="30.0dp" android:checked="false" android:buttonTint="@color/green_chart" />
+    </FrameLayout>
+</LinearLayout>

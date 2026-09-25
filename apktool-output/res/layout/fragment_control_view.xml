@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:tag="layout/fragment_control_view_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="bottom" android:id="@id/play_button" android:tag="binding_1" android:layout_width="50.0dp" android:layout_height="50.0dp" android:layout_marginBottom="10.0dp" android:layout_marginStart="10.0dp" app:backgroundTint="@android:color/white" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <SeekBar android:layout_gravity="center_vertical" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refresh_layout" android:tag="layout/fragment_main_dashboard_0" android:background="@android:color/white" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+        <include layout="@layout/main_toolbar" />
+        <LinearLayout android:orientation="horizontal" android:tag="binding_2" android:background="@color/red" android:padding="12.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="10.0">
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="13.0sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:tag="binding_3" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="7.0" app:customFont="proTextRegular" />
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textColor="@color/white" android:gravity="end|center" android:layout_gravity="center_vertical" android:tag="binding_4" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="3.0" app:customFont="proTextRegular" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:tag="binding_5" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/white" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/pull_down_to_sync" />
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/arrow_down" />
+        </LinearLayout>
+        <androidx.core.widget.NestedScrollView android:id="@id/main_scroll" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">
+                <FrameLayout android:id="@id/sync_fragment" android:tag="binding_6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" />
+                <FrameLayout android:id="@id/real_time_fragment" android:layout_width="match_parent" android:layout_height="wrap_content" />
+                <View android:background="@color/dark_grey" android:layout_width="match_parent" android:layout_height="24.0dp" />
+                <FrameLayout android:id="@id/user_activity_fragment" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dp" />
+                <View android:background="@color/dark_grey" android:layout_width="match_parent" android:layout_height="24.0dp" />
+                <FrameLayout android:id="@id/pedometer_day_fragment" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dp" />
+                <View android:background="@color/dark_grey" android:layout_width="match_parent" android:layout_height="24.0dp" />
+                <FrameLayout android:id="@id/calories_day_fragment" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dp" />
+                <View android:background="@color/dark_grey" android:layout_width="match_parent" android:layout_height="24.0dp" />
+                <FrameLayout android:id="@id/heart_rate_day_fragment" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dp" />
+                <View android:background="@color/dark_grey" android:layout_width="match_parent" android:layout_height="24.0dp" />
+                <FrameLayout android:id="@id/sleep_day_fragment" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dp" />
+                <View android:background="@color/dark_grey" android:layout_width="match_parent" android:layout_height="24.0dp" />
+                <FrameLayout android:id="@id/power_day_fragment" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dp" />
+                <View android:background="@color/dark_grey" android:layout_width="match_parent" android:layout_height="24.0dp" />
+                <FrameLayout android:id="@id/temperature_day_fragment" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dp" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>

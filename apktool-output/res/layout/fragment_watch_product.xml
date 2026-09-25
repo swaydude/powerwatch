@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="20.0sp" android:textColor="@color/black" android:gravity="center_horizontal" android:id="@id/watch_product_title" android:padding="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:customFont="medium" />
+    <ImageView android:id="@id/watch_image" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" />
+</LinearLayout>

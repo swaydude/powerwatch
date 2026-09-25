@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_third_party_permission_0" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="10.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:tag="binding_1" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:layout_width="match_parent" android:layout_height="120.0dp" layout="@layout/login_toolbar" />
+    </FrameLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/permissions_list" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="6.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="4.0">
+        <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableButton android:enabled="true" android:textColor="@android:color/white" android:id="@id/login_button" android:tag="binding_2" android:background="@drawable/rounded_red_button_background" android:layout_width="match_parent" android:layout_height="50.0dp" android:layout_marginTop="50.0dp" android:text="@string/button_done" android:textAllCaps="false" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp" app:customFont="medium" />
+        <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="16.0sp" android:textColor="@color/grey" android:layout_gravity="center_horizontal" android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:text="@string/skip_for_now" app:customFont="proTextRegular" />
+    </LinearLayout>
+</LinearLayout>

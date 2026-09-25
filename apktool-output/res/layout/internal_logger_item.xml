@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="5.0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/log_icon" android:layout_width="16.0dp" android:layout_height="16.0dp" android:src="@mipmap/icon_error" />
+        <TextView android:textSize="13.0sp" android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/log_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="5.0dp" />
+    </LinearLayout>
+    <TextView android:textSize="11.0sp" android:id="@id/log_content" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <View android:background="@drawable/white_background" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="5.0dp" />
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_calendar_0" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/main_toolbar" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="12.0sp" android:textColor="@color/grey" android:id="@id/day_one" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="20.0dp" android:text="@string/sunday" android:layout_weight="1.0" />
+        <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/day_two" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="20.0dp" android:text="@string/monday" android:layout_weight="1.0" />
+        <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/day_three" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="20.0dp" android:text="@string/tuesday" android:layout_weight="1.0" />
+        <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/day_four" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="20.0dp" android:text="@string/wednesday" android:layout_weight="1.0" />
+        <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/day_five" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="20.0dp" android:text="@string/thursday" android:layout_weight="1.0" />
+        <Button android:textSize="12.0sp" android:textColor="@color/white" android:id="@id/day_six" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="20.0dp" android:text="@string/friday" android:layout_weight="1.0" />
+        <Button android:textSize="12.0sp" android:textColor="@color/grey" android:id="@id/day_seven" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="20.0dp" android:text="@string/saturday" android:layout_weight="1.0" />
+    </LinearLayout>
+    <View android:background="@color/dark_grey" android:layout_width="match_parent" android:layout_height="0.20000005dp" />
+    <powerwatch.matrix.com.pwgen2android.shared.ui.calendar.CalendarView android:id="@id/calendar_view" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10.0dp" />
+</LinearLayout>

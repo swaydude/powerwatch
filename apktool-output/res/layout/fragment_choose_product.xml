@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:tag="layout/fragment_choose_product_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:tag="binding_1" android:background="@drawable/main_black_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/login_toolbar" />
+        <androidx.viewpager.widget.ViewPager android:id="@id/products_view_pager" android:layout_width="match_parent" android:layout_height="300.0dp" android:layout_marginTop="80.0dp" />
+        <RadioGroup android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/radio_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dp" />
+        <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableButton android:textColor="@color/white" android:layout_gravity="center_horizontal" android:id="@id/button_choose_watch" android:background="@drawable/rounded_red_button_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dp" android:text="@string/choose_button" android:textAllCaps="false" android:layout_marginStart="30.0dp" android:layout_marginEnd="30.0dp" app:customFont="medium" />
+    </LinearLayout>
+</ScrollView>

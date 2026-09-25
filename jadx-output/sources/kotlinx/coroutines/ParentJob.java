@@ -1,0 +1,40 @@
+package kotlinx.coroutines;
+
+/* JADX INFO: compiled from: Job.kt */
+/* JADX INFO: loaded from: classes2.dex */
+@kotlin.Deprecated(level = kotlin.DeprecationLevel.ERROR, message = "This is internal API and may be removed in the future releases")
+@kotlin.Metadata(bv = {1, 0, 3}, d1 = {"\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0003\n\u0000\bg\u0018\u00002\u00020\u0001J\b\u0010\u0002\u001a\u00020\u0003H'¨\u0006\u0004"}, d2 = {"Lkotlinx/coroutines/ParentJob;", "Lkotlinx/coroutines/Job;", "getChildJobCancellationCause", "", "kotlinx-coroutines-core"}, k = 1, mv = {1, 1, 13})
+public interface ParentJob extends kotlinx.coroutines.Job {
+
+    /* JADX INFO: compiled from: Job.kt */
+    @kotlin.Metadata(bv = {1, 0, 3}, k = 3, mv = {1, 1, 13})
+    public static final class DefaultImpls {
+        public static <R> R fold(kotlinx.coroutines.ParentJob parentJob, R r, kotlin.jvm.functions.Function2<? super R, ? super kotlin.coroutines.CoroutineContext.Element, ? extends R> operation) {
+            kotlin.jvm.internal.Intrinsics.checkParameterIsNotNull(operation, "operation");
+            return (R) kotlinx.coroutines.Job.DefaultImpls.fold(parentJob, r, operation);
+        }
+
+        public static <E extends kotlin.coroutines.CoroutineContext.Element> E get(kotlinx.coroutines.ParentJob parentJob, kotlin.coroutines.CoroutineContext.Key<E> key) {
+            kotlin.jvm.internal.Intrinsics.checkParameterIsNotNull(key, "key");
+            return (E) kotlinx.coroutines.Job.DefaultImpls.get(parentJob, key);
+        }
+
+        public static kotlin.coroutines.CoroutineContext minusKey(kotlinx.coroutines.ParentJob parentJob, kotlin.coroutines.CoroutineContext.Key<?> key) {
+            kotlin.jvm.internal.Intrinsics.checkParameterIsNotNull(key, "key");
+            return kotlinx.coroutines.Job.DefaultImpls.minusKey(parentJob, key);
+        }
+
+        public static kotlin.coroutines.CoroutineContext plus(kotlinx.coroutines.ParentJob parentJob, kotlin.coroutines.CoroutineContext context) {
+            kotlin.jvm.internal.Intrinsics.checkParameterIsNotNull(context, "context");
+            return kotlinx.coroutines.Job.DefaultImpls.plus(parentJob, context);
+        }
+
+        @kotlin.Deprecated(level = kotlin.DeprecationLevel.ERROR, message = "Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")
+        public static kotlinx.coroutines.Job plus(kotlinx.coroutines.ParentJob parentJob, kotlinx.coroutines.Job other) {
+            kotlin.jvm.internal.Intrinsics.checkParameterIsNotNull(other, "other");
+            return kotlinx.coroutines.Job.DefaultImpls.plus((kotlinx.coroutines.Job) parentJob, other);
+        }
+    }
+
+    java.lang.Throwable getChildJobCancellationCause();
+}

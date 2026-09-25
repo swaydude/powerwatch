@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:tag="layout/fragment_device_banner_0" android:paddingTop="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10.0dp" android:paddingEnd="10.0dp"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:id="@id/top_info" android:layout_marginBottom="10.0dp" android:text="@string/getting_started" app:customFont="bold" style="@style/HeaderTextView" />
+    <ImageView android:id="@id/banner_image" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/device_banner_v2" android:scaleType="fitCenter" android:layout_below="@id/top_info" />
+</RelativeLayout>

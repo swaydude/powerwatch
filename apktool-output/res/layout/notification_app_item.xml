@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="10.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textColor="@android:color/white" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/app_name" android:layout_width="0.0dp" android:layout_height="wrap_content" android:lines="2" android:layout_weight="8.0" app:customFont="proTextRegular" />
+    <androidx.appcompat.widget.SwitchCompat android:layout_gravity="end" android:id="@id/app_toggle" android:layout_width="0.0dp" android:layout_height="40.0dp" android:layout_marginLeft="10.0dp" android:checked="true" android:textOn="" android:textOff="" android:layout_weight="2.0" android:layout_marginEnd="@dimen/margin_end_arrow_button" app:showText="false" />
+</LinearLayout>

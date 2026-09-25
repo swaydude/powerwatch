@@ -1,0 +1,7 @@
+package com.google.android.gms.internal.measurement;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-measurement-base@@17.2.3 */
+/* JADX INFO: loaded from: classes.dex */
+public interface zzfj extends com.google.android.gms.internal.measurement.zzfl<java.lang.Integer> {
+    com.google.android.gms.internal.measurement.zzfj zzb(int i);
+}

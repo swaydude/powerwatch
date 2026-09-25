@@ -1,0 +1,14 @@
+package com.google.android.gms.internal.vision;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-vision-common@@19.0.0 */
+/* JADX INFO: loaded from: classes.dex */
+abstract class zzdv {
+    private static final java.lang.Throwable[] zzmg = new java.lang.Throwable[0];
+
+    zzdv() {
+    }
+
+    public abstract void zza(java.lang.Throwable th);
+
+    public abstract void zza(java.lang.Throwable th, java.lang.Throwable th2);
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:tag="layout/fragment_sign_in_0" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/login_details" android:tag="binding_1" android:background="@drawable/white_background" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:layout_width="match_parent" android:layout_height="140.0dp" layout="@layout/login_toolbar" />
+        <LinearLayout android:orientation="vertical" android:padding="15.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableEditText android:id="@id/email_edit_text" android:tag="binding_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dp" android:hint="@string/email" android:inputType="textEmailAddress" app:customFont="proTextRegular" style="@style/EditTextStyle" />
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableEditText android:id="@id/password_edit_text" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:hint="@string/password" android:inputType="textPassword" app:customFont="proTextRegular" style="@style/EditTextStyle" />
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="14.0sp" android:textColor="@color/red" android:layout_gravity="center_horizontal" android:tag="binding_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:text="@string/forgot_password_label" app:customFont="proTextRegular" />
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp">
+                <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableButton android:textColor="@android:color/white" android:id="@id/login_button" android:tag="binding_5" android:background="@drawable/rounded_red_button_background" android:layout_width="match_parent" android:layout_height="50.0dp" android:text="@string/log_in" android:textAllCaps="false" app:customFont="medium" />
+                <ProgressBar android:layout_gravity="center" android:tag="binding_6" android:layout_width="40.0dp" android:layout_height="40.0dp" />
+            </FrameLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="14.0sp" android:textColor="@color/grey" android:tag="binding_7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:text="@string/dont_have_account" app:customFont="proTextRegular" />
+                <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="14.0sp" android:textColor="@color/red" android:tag="binding_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" android:text="@string/create_account" android:layout_marginStart="10.0dp" app:customFont="proTextRegular" />
+            </LinearLayout>
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="14.0sp" android:textColor="@color/red" android:gravity="center" android:id="@id/error_text_view" android:tag="binding_9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dp" app:customFont="proTextRegular" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:tag="binding_10" android:background="@color/red" android:padding="12.0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textColor="@color/white" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/network_not_available_text" app:customFont="proTextRegular" />
+    </LinearLayout>
+</FrameLayout>

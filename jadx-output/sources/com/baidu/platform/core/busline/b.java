@@ -1,0 +1,23 @@
+package com.baidu.platform.core.busline;
+
+/* JADX INFO: loaded from: classes.dex */
+public class b extends com.baidu.platform.base.e {
+    public b(com.baidu.mapapi.search.busline.BusLineSearchOption busLineSearchOption) {
+        a(busLineSearchOption);
+    }
+
+    private void a(com.baidu.mapapi.search.busline.BusLineSearchOption busLineSearchOption) {
+        this.a.a("qt", "bsl");
+        this.a.a("rt_info", "1");
+        this.a.a("ie", "utf-8");
+        this.a.a("oue", "0");
+        this.a.a("c", busLineSearchOption.mCity);
+        this.a.a("uid", busLineSearchOption.mUid);
+        this.a.a("t", java.lang.System.currentTimeMillis() + "");
+    }
+
+    @Override // com.baidu.platform.base.e
+    public java.lang.String a(com.baidu.platform.domain.c cVar) {
+        return cVar.m();
+    }
+}

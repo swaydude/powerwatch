@@ -1,0 +1,439 @@
+package androidx.recyclerview.widget;
+
+/* JADX INFO: loaded from: classes.dex */
+public class DiffUtil {
+    private static final java.util.Comparator<androidx.recyclerview.widget.DiffUtil.Snake> SNAKE_COMPARATOR = new java.util.Comparator<androidx.recyclerview.widget.DiffUtil.Snake>() { // from class: androidx.recyclerview.widget.DiffUtil.1
+        @Override // java.util.Comparator
+        public int compare(androidx.recyclerview.widget.DiffUtil.Snake snake, androidx.recyclerview.widget.DiffUtil.Snake snake2) {
+            int i = snake.x - snake2.x;
+            return i == 0 ? snake.y - snake2.y : i;
+        }
+    };
+
+    public static abstract class Callback {
+        public abstract boolean areContentsTheSame(int i, int i2);
+
+        public abstract boolean areItemsTheSame(int i, int i2);
+
+        public java.lang.Object getChangePayload(int i, int i2) {
+            return null;
+        }
+
+        public abstract int getNewListSize();
+
+        public abstract int getOldListSize();
+    }
+
+    public static abstract class ItemCallback<T> {
+        public abstract boolean areContentsTheSame(T t, T t2);
+
+        public abstract boolean areItemsTheSame(T t, T t2);
+
+        public java.lang.Object getChangePayload(T t, T t2) {
+            return null;
+        }
+    }
+
+    private DiffUtil() {
+    }
+
+    public static androidx.recyclerview.widget.DiffUtil.DiffResult calculateDiff(androidx.recyclerview.widget.DiffUtil.Callback callback) {
+        return calculateDiff(callback, true);
+    }
+
+    public static androidx.recyclerview.widget.DiffUtil.DiffResult calculateDiff(androidx.recyclerview.widget.DiffUtil.Callback callback, boolean z) {
+        int oldListSize = callback.getOldListSize();
+        int newListSize = callback.getNewListSize();
+        java.util.ArrayList arrayList = new java.util.ArrayList();
+        java.util.ArrayList arrayList2 = new java.util.ArrayList();
+        arrayList2.add(new androidx.recyclerview.widget.DiffUtil.Range(0, oldListSize, 0, newListSize));
+        int iAbs = oldListSize + newListSize + java.lang.Math.abs(oldListSize - newListSize);
+        int i = iAbs * 2;
+        int[] iArr = new int[i];
+        int[] iArr2 = new int[i];
+        java.util.ArrayList arrayList3 = new java.util.ArrayList();
+        while (!arrayList2.isEmpty()) {
+            androidx.recyclerview.widget.DiffUtil.Range range = (androidx.recyclerview.widget.DiffUtil.Range) arrayList2.remove(arrayList2.size() - 1);
+            androidx.recyclerview.widget.DiffUtil.Snake snakeDiffPartial = diffPartial(callback, range.oldListStart, range.oldListEnd, range.newListStart, range.newListEnd, iArr, iArr2, iAbs);
+            if (snakeDiffPartial != null) {
+                if (snakeDiffPartial.size > 0) {
+                    arrayList.add(snakeDiffPartial);
+                }
+                snakeDiffPartial.x += range.oldListStart;
+                snakeDiffPartial.y += range.newListStart;
+                androidx.recyclerview.widget.DiffUtil.Range range2 = arrayList3.isEmpty() ? new androidx.recyclerview.widget.DiffUtil.Range() : (androidx.recyclerview.widget.DiffUtil.Range) arrayList3.remove(arrayList3.size() - 1);
+                range2.oldListStart = range.oldListStart;
+                range2.newListStart = range.newListStart;
+                if (snakeDiffPartial.reverse) {
+                    range2.oldListEnd = snakeDiffPartial.x;
+                    range2.newListEnd = snakeDiffPartial.y;
+                } else if (snakeDiffPartial.removal) {
+                    range2.oldListEnd = snakeDiffPartial.x - 1;
+                    range2.newListEnd = snakeDiffPartial.y;
+                } else {
+                    range2.oldListEnd = snakeDiffPartial.x;
+                    range2.newListEnd = snakeDiffPartial.y - 1;
+                }
+                arrayList2.add(range2);
+                if (snakeDiffPartial.reverse) {
+                    if (snakeDiffPartial.removal) {
+                        range.oldListStart = snakeDiffPartial.x + snakeDiffPartial.size + 1;
+                        range.newListStart = snakeDiffPartial.y + snakeDiffPartial.size;
+                    } else {
+                        range.oldListStart = snakeDiffPartial.x + snakeDiffPartial.size;
+                        range.newListStart = snakeDiffPartial.y + snakeDiffPartial.size + 1;
+                    }
+                } else {
+                    range.oldListStart = snakeDiffPartial.x + snakeDiffPartial.size;
+                    range.newListStart = snakeDiffPartial.y + snakeDiffPartial.size;
+                }
+                arrayList2.add(range);
+            } else {
+                arrayList3.add(range);
+            }
+        }
+        java.util.Collections.sort(arrayList, SNAKE_COMPARATOR);
+        return new androidx.recyclerview.widget.DiffUtil.DiffResult(callback, arrayList, iArr, iArr2, z);
+    }
+
+    /* JADX WARN: Code duplicated, block: B:20:0x004d  */
+    /*  JADX ERROR: JadxRuntimeException in pass: RegionMakerVisitor
+        jadx.core.utils.exceptions.JadxRuntimeException: Not found exit edge by exit block: B:52:0x00cf
+        	at jadx.core.dex.visitors.regions.maker.LoopRegionMaker.checkLoopExits(LoopRegionMaker.java:272)
+        	at jadx.core.dex.visitors.regions.maker.LoopRegionMaker.makeLoopRegion(LoopRegionMaker.java:237)
+        	at jadx.core.dex.visitors.regions.maker.LoopRegionMaker.process(LoopRegionMaker.java:80)
+        	at jadx.core.dex.visitors.regions.maker.RegionMaker.traverse(RegionMaker.java:92)
+        	at jadx.core.dex.visitors.regions.maker.RegionMaker.makeRegion(RegionMaker.java:69)
+        	at jadx.core.dex.visitors.regions.maker.IfRegionMaker.process(IfRegionMaker.java:111)
+        	at jadx.core.dex.visitors.regions.maker.RegionMaker.traverse(RegionMaker.java:109)
+        	at jadx.core.dex.visitors.regions.maker.RegionMaker.makeRegion(RegionMaker.java:69)
+        	at jadx.core.dex.visitors.regions.maker.LoopRegionMaker.process(LoopRegionMaker.java:162)
+        	at jadx.core.dex.visitors.regions.maker.RegionMaker.traverse(RegionMaker.java:92)
+        	at jadx.core.dex.visitors.regions.maker.RegionMaker.makeRegion(RegionMaker.java:69)
+        	at jadx.core.dex.visitors.regions.maker.LoopRegionMaker.process(LoopRegionMaker.java:162)
+        	at jadx.core.dex.visitors.regions.maker.RegionMaker.traverse(RegionMaker.java:92)
+        	at jadx.core.dex.visitors.regions.maker.RegionMaker.makeRegion(RegionMaker.java:69)
+        	at jadx.core.dex.visitors.regions.maker.IfRegionMaker.process(IfRegionMaker.java:117)
+        	at jadx.core.dex.visitors.regions.maker.RegionMaker.traverse(RegionMaker.java:109)
+        	at jadx.core.dex.visitors.regions.maker.RegionMaker.makeRegion(RegionMaker.java:69)
+        	at jadx.core.dex.visitors.regions.maker.RegionMaker.makeMthRegion(RegionMaker.java:49)
+        	at jadx.core.dex.visitors.regions.RegionMakerVisitor.visit(RegionMakerVisitor.java:25)
+        */
+    private static androidx.recyclerview.widget.DiffUtil.Snake diffPartial(androidx.recyclerview.widget.DiffUtil.Callback r19, int r20, int r21, int r22, int r23, int[] r24, int[] r25, int r26) {
+        /*
+            Method dump skipped, instruction units count: 309
+            To view this dump add '--comments-level debug' option
+        */
+        throw new UnsupportedOperationException("Method not decompiled: androidx.recyclerview.widget.DiffUtil.diffPartial(androidx.recyclerview.widget.DiffUtil$Callback, int, int, int, int, int[], int[], int):androidx.recyclerview.widget.DiffUtil$Snake");
+    }
+
+    static class Snake {
+        boolean removal;
+        boolean reverse;
+        int size;
+        int x;
+        int y;
+
+        Snake() {
+        }
+    }
+
+    static class Range {
+        int newListEnd;
+        int newListStart;
+        int oldListEnd;
+        int oldListStart;
+
+        public Range() {
+        }
+
+        public Range(int i, int i2, int i3, int i4) {
+            this.oldListStart = i;
+            this.oldListEnd = i2;
+            this.newListStart = i3;
+            this.newListEnd = i4;
+        }
+    }
+
+    public static class DiffResult {
+        private static final int FLAG_CHANGED = 2;
+        private static final int FLAG_IGNORE = 16;
+        private static final int FLAG_MASK = 31;
+        private static final int FLAG_MOVED_CHANGED = 4;
+        private static final int FLAG_MOVED_NOT_CHANGED = 8;
+        private static final int FLAG_NOT_CHANGED = 1;
+        private static final int FLAG_OFFSET = 5;
+        public static final int NO_POSITION = -1;
+        private final androidx.recyclerview.widget.DiffUtil.Callback mCallback;
+        private final boolean mDetectMoves;
+        private final int[] mNewItemStatuses;
+        private final int mNewListSize;
+        private final int[] mOldItemStatuses;
+        private final int mOldListSize;
+        private final java.util.List<androidx.recyclerview.widget.DiffUtil.Snake> mSnakes;
+
+        DiffResult(androidx.recyclerview.widget.DiffUtil.Callback callback, java.util.List<androidx.recyclerview.widget.DiffUtil.Snake> list, int[] iArr, int[] iArr2, boolean z) {
+            this.mSnakes = list;
+            this.mOldItemStatuses = iArr;
+            this.mNewItemStatuses = iArr2;
+            java.util.Arrays.fill(iArr, 0);
+            java.util.Arrays.fill(iArr2, 0);
+            this.mCallback = callback;
+            this.mOldListSize = callback.getOldListSize();
+            this.mNewListSize = callback.getNewListSize();
+            this.mDetectMoves = z;
+            addRootSnake();
+            findMatchingItems();
+        }
+
+        private void addRootSnake() {
+            androidx.recyclerview.widget.DiffUtil.Snake snake = this.mSnakes.isEmpty() ? null : this.mSnakes.get(0);
+            if (snake != null && snake.x == 0 && snake.y == 0) {
+                return;
+            }
+            androidx.recyclerview.widget.DiffUtil.Snake snake2 = new androidx.recyclerview.widget.DiffUtil.Snake();
+            snake2.x = 0;
+            snake2.y = 0;
+            snake2.removal = false;
+            snake2.size = 0;
+            snake2.reverse = false;
+            this.mSnakes.add(0, snake2);
+        }
+
+        private void findMatchingItems() {
+            int i = this.mOldListSize;
+            int i2 = this.mNewListSize;
+            for (int size = this.mSnakes.size() - 1; size >= 0; size--) {
+                androidx.recyclerview.widget.DiffUtil.Snake snake = this.mSnakes.get(size);
+                int i3 = snake.x + snake.size;
+                int i4 = snake.y + snake.size;
+                if (this.mDetectMoves) {
+                    while (i > i3) {
+                        findAddition(i, i2, size);
+                        i--;
+                    }
+                    while (i2 > i4) {
+                        findRemoval(i, i2, size);
+                        i2--;
+                    }
+                }
+                for (int i5 = 0; i5 < snake.size; i5++) {
+                    int i6 = snake.x + i5;
+                    int i7 = snake.y + i5;
+                    int i8 = this.mCallback.areContentsTheSame(i6, i7) ? 1 : 2;
+                    this.mOldItemStatuses[i6] = (i7 << 5) | i8;
+                    this.mNewItemStatuses[i7] = (i6 << 5) | i8;
+                }
+                i = snake.x;
+                i2 = snake.y;
+            }
+        }
+
+        private void findAddition(int i, int i2, int i3) {
+            if (this.mOldItemStatuses[i - 1] != 0) {
+                return;
+            }
+            findMatchingItem(i, i2, i3, false);
+        }
+
+        private void findRemoval(int i, int i2, int i3) {
+            if (this.mNewItemStatuses[i2 - 1] != 0) {
+                return;
+            }
+            findMatchingItem(i, i2, i3, true);
+        }
+
+        public int convertOldPositionToNew(int i) {
+            if (i < 0 || i >= this.mOldListSize) {
+                throw new java.lang.IndexOutOfBoundsException("Index out of bounds - passed position = " + i + ", old list size = " + this.mOldListSize);
+            }
+            int i2 = this.mOldItemStatuses[i];
+            if ((i2 & 31) == 0) {
+                return -1;
+            }
+            return i2 >> 5;
+        }
+
+        public int convertNewPositionToOld(int i) {
+            if (i < 0 || i >= this.mNewListSize) {
+                throw new java.lang.IndexOutOfBoundsException("Index out of bounds - passed position = " + i + ", new list size = " + this.mNewListSize);
+            }
+            int i2 = this.mNewItemStatuses[i];
+            if ((i2 & 31) == 0) {
+                return -1;
+            }
+            return i2 >> 5;
+        }
+
+        private boolean findMatchingItem(int i, int i2, int i3, boolean z) {
+            int i4;
+            int i5;
+            int i6;
+            if (z) {
+                i2--;
+                i5 = i;
+                i4 = i2;
+            } else {
+                i4 = i - 1;
+                i5 = i4;
+            }
+            while (i3 >= 0) {
+                androidx.recyclerview.widget.DiffUtil.Snake snake = this.mSnakes.get(i3);
+                int i7 = snake.x + snake.size;
+                int i8 = snake.y + snake.size;
+                if (z) {
+                    for (int i9 = i5 - 1; i9 >= i7; i9--) {
+                        if (this.mCallback.areItemsTheSame(i9, i4)) {
+                            i6 = this.mCallback.areContentsTheSame(i9, i4) ? 8 : 4;
+                            this.mNewItemStatuses[i4] = (i9 << 5) | 16;
+                            this.mOldItemStatuses[i9] = (i4 << 5) | i6;
+                            return true;
+                        }
+                    }
+                } else {
+                    for (int i10 = i2 - 1; i10 >= i8; i10--) {
+                        if (this.mCallback.areItemsTheSame(i4, i10)) {
+                            i6 = this.mCallback.areContentsTheSame(i4, i10) ? 8 : 4;
+                            int i11 = i - 1;
+                            this.mOldItemStatuses[i11] = (i10 << 5) | 16;
+                            this.mNewItemStatuses[i10] = (i11 << 5) | i6;
+                            return true;
+                        }
+                    }
+                }
+                i5 = snake.x;
+                i2 = snake.y;
+                i3--;
+            }
+            return false;
+        }
+
+        public void dispatchUpdatesTo(androidx.recyclerview.widget.RecyclerView.Adapter adapter) {
+            dispatchUpdatesTo(new androidx.recyclerview.widget.AdapterListUpdateCallback(adapter));
+        }
+
+        public void dispatchUpdatesTo(androidx.recyclerview.widget.ListUpdateCallback listUpdateCallback) {
+            androidx.recyclerview.widget.BatchingListUpdateCallback batchingListUpdateCallback;
+            if (listUpdateCallback instanceof androidx.recyclerview.widget.BatchingListUpdateCallback) {
+                batchingListUpdateCallback = (androidx.recyclerview.widget.BatchingListUpdateCallback) listUpdateCallback;
+            } else {
+                batchingListUpdateCallback = new androidx.recyclerview.widget.BatchingListUpdateCallback(listUpdateCallback);
+            }
+            java.util.List<androidx.recyclerview.widget.DiffUtil.PostponedUpdate> arrayList = new java.util.ArrayList<>();
+            int i = this.mOldListSize;
+            int i2 = this.mNewListSize;
+            for (int size = this.mSnakes.size() - 1; size >= 0; size--) {
+                androidx.recyclerview.widget.DiffUtil.Snake snake = this.mSnakes.get(size);
+                int i3 = snake.size;
+                int i4 = snake.x + i3;
+                int i5 = snake.y + i3;
+                if (i4 < i) {
+                    dispatchRemovals(arrayList, batchingListUpdateCallback, i4, i - i4, i4);
+                }
+                if (i5 < i2) {
+                    dispatchAdditions(arrayList, batchingListUpdateCallback, i4, i2 - i5, i5);
+                }
+                for (int i6 = i3 - 1; i6 >= 0; i6--) {
+                    if ((this.mOldItemStatuses[snake.x + i6] & 31) == 2) {
+                        batchingListUpdateCallback.onChanged(snake.x + i6, 1, this.mCallback.getChangePayload(snake.x + i6, snake.y + i6));
+                    }
+                }
+                i = snake.x;
+                i2 = snake.y;
+            }
+            batchingListUpdateCallback.dispatchLastEvent();
+        }
+
+        private static androidx.recyclerview.widget.DiffUtil.PostponedUpdate removePostponedUpdate(java.util.List<androidx.recyclerview.widget.DiffUtil.PostponedUpdate> list, int i, boolean z) {
+            int size = list.size() - 1;
+            while (size >= 0) {
+                androidx.recyclerview.widget.DiffUtil.PostponedUpdate postponedUpdate = list.get(size);
+                if (postponedUpdate.posInOwnerList == i && postponedUpdate.removal == z) {
+                    list.remove(size);
+                    while (size < list.size()) {
+                        list.get(size).currentPos += z ? 1 : -1;
+                        size++;
+                    }
+                    return postponedUpdate;
+                }
+                size--;
+            }
+            return null;
+        }
+
+        private void dispatchAdditions(java.util.List<androidx.recyclerview.widget.DiffUtil.PostponedUpdate> list, androidx.recyclerview.widget.ListUpdateCallback listUpdateCallback, int i, int i2, int i3) {
+            if (!this.mDetectMoves) {
+                listUpdateCallback.onInserted(i, i2);
+                return;
+            }
+            for (int i4 = i2 - 1; i4 >= 0; i4--) {
+                int[] iArr = this.mNewItemStatuses;
+                int i5 = i3 + i4;
+                int i6 = iArr[i5] & 31;
+                if (i6 == 0) {
+                    listUpdateCallback.onInserted(i, 1);
+                    java.util.Iterator<androidx.recyclerview.widget.DiffUtil.PostponedUpdate> it = list.iterator();
+                    while (it.hasNext()) {
+                        it.next().currentPos++;
+                    }
+                } else if (i6 == 4 || i6 == 8) {
+                    int i7 = iArr[i5] >> 5;
+                    listUpdateCallback.onMoved(removePostponedUpdate(list, i7, true).currentPos, i);
+                    if (i6 == 4) {
+                        listUpdateCallback.onChanged(i, 1, this.mCallback.getChangePayload(i7, i5));
+                    }
+                } else if (i6 == 16) {
+                    list.add(new androidx.recyclerview.widget.DiffUtil.PostponedUpdate(i5, i, false));
+                } else {
+                    throw new java.lang.IllegalStateException("unknown flag for pos " + i5 + " " + java.lang.Long.toBinaryString(i6));
+                }
+            }
+        }
+
+        private void dispatchRemovals(java.util.List<androidx.recyclerview.widget.DiffUtil.PostponedUpdate> list, androidx.recyclerview.widget.ListUpdateCallback listUpdateCallback, int i, int i2, int i3) {
+            if (!this.mDetectMoves) {
+                listUpdateCallback.onRemoved(i, i2);
+                return;
+            }
+            for (int i4 = i2 - 1; i4 >= 0; i4--) {
+                int[] iArr = this.mOldItemStatuses;
+                int i5 = i3 + i4;
+                int i6 = iArr[i5] & 31;
+                if (i6 == 0) {
+                    listUpdateCallback.onRemoved(i + i4, 1);
+                    java.util.Iterator<androidx.recyclerview.widget.DiffUtil.PostponedUpdate> it = list.iterator();
+                    while (it.hasNext()) {
+                        it.next().currentPos--;
+                    }
+                } else if (i6 == 4 || i6 == 8) {
+                    int i7 = iArr[i5] >> 5;
+                    androidx.recyclerview.widget.DiffUtil.PostponedUpdate postponedUpdateRemovePostponedUpdate = removePostponedUpdate(list, i7, false);
+                    listUpdateCallback.onMoved(i + i4, postponedUpdateRemovePostponedUpdate.currentPos - 1);
+                    if (i6 == 4) {
+                        listUpdateCallback.onChanged(postponedUpdateRemovePostponedUpdate.currentPos - 1, 1, this.mCallback.getChangePayload(i5, i7));
+                    }
+                } else if (i6 == 16) {
+                    list.add(new androidx.recyclerview.widget.DiffUtil.PostponedUpdate(i5, i + i4, true));
+                } else {
+                    throw new java.lang.IllegalStateException("unknown flag for pos " + i5 + " " + java.lang.Long.toBinaryString(i6));
+                }
+            }
+        }
+
+        java.util.List<androidx.recyclerview.widget.DiffUtil.Snake> getSnakes() {
+            return this.mSnakes;
+        }
+    }
+
+    private static class PostponedUpdate {
+        int currentPos;
+        int posInOwnerList;
+        boolean removal;
+
+        public PostponedUpdate(int i, int i2, boolean z) {
+            this.posInOwnerList = i;
+            this.currentPos = i2;
+            this.removal = z;
+        }
+    }
+}

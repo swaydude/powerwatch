@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_notification_logger_0" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="20.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <powerwatch.matrix.com.pwgen2android.shared.ui.LoggerToolbar android:orientation="vertical" android:background="@color/dark_grey" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/back_button" android:tag="binding_1" android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/left_arrow_grey" />
+            <TextView android:textSize="20.0sp" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/toolbar_title" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="Logger" android:layout_weight="6.0" />
+            <ImageView android:layout_gravity="center" android:id="@id/share_button" android:tag="binding_2" android:layout_width="30.0dp" android:layout_height="30.0dp" android:src="@drawable/shared_icon" />
+        </LinearLayout>
+    </powerwatch.matrix.com.pwgen2android.shared.ui.LoggerToolbar>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/logs_list" android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="18.0" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="0.0dp" android:layout_weight="2.0">
+        <androidx.appcompat.widget.AppCompatButton android:id="@id/scroll_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Scroll To Bottom" />
+        <androidx.appcompat.widget.AppCompatButton android:tag="binding_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Clear" />
+    </LinearLayout>
+</LinearLayout>

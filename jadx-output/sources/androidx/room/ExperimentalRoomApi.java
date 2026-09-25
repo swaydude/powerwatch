@@ -1,0 +1,6 @@
+package androidx.room;
+
+/* JADX INFO: loaded from: classes.dex */
+@java.lang.annotation.Target({java.lang.annotation.ElementType.TYPE, java.lang.annotation.ElementType.METHOD})
+public @interface ExperimentalRoomApi {
+}

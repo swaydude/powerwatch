@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_choose_language_0" android:layout_width="match_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/main_toolbar" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/language_list" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="15.0dp" />
+</LinearLayout>

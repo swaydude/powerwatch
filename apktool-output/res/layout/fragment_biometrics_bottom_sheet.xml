@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/black" android:padding="10.0dp" android:paddingTop="8.0dp" android:paddingBottom="8.0dp" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.super_rabbit.wheel_picker.WheelPicker android:layout_gravity="center" android:id="@id/biometrics_picker" android:layout_width="120.0dp" android:layout_height="300.0dp" app:selectedTextColor="@color/white" app:textColor="@color/grey" app:textSize="24.0sp" app:wheelItemCount="8" />
+    <ImageView android:layout_gravity="end|top" android:id="@id/close_button" android:layout_width="36.0dp" android:layout_height="34.0dp" android:src="@drawable/left_arrow_grey" android:rotation="-90.0" />
+</FrameLayout>

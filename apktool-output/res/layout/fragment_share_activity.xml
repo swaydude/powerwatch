@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_share_activity_0" android:background="@color/dark_grey" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="22.0sp" android:textColor="@color/grey" android:text="@string/share_activity_title" app:customFont="proTextRegular" style="@style/ShareDialogTextStyle" />
+    <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textColor="@color/grey" android:padding="0.0dp" android:layout_marginBottom="40.0dp" android:text="@string/choose_file_format" app:customFont="proTextRegular" style="@style/ShareDialogTextStyle" />
+    <View android:layout_height="1.0dp" style="@style/FullLineDelimiter" />
+    <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textColor="@color/light_grey" android:tag="binding_1" android:text="@string/tcx_format" app:customFont="proTextRegular" style="@style/ShareDialogTextStyle" />
+    <View style="@style/FullLineDelimiter" />
+    <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textColor="@color/light_grey" android:tag="binding_2" android:text="@string/gpx_format" app:customFont="proTextRegular" style="@style/ShareDialogTextStyle" />
+    <View style="@style/FullLineDelimiter" />
+    <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textColor="@color/grey" android:tag="binding_3" android:text="@string/button_cancel" app:customFont="proTextRegular" style="@style/ShareDialogTextStyle" />
+</LinearLayout>

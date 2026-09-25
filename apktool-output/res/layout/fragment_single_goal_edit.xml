@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/main_view" android:tag="layout/fragment_single_goal_edit_0" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/main_toolbar" />
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableEditText android:textSize="36.0sp" android:textColor="@android:color/white" android:textColorHint="@color/white" android:layout_gravity="center" android:id="@id/goal_value_edit_text" android:tag="binding_1" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="10.0dp" android:inputType="numberDecimal" app:customFont="proTextRegular" />
+        <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="36.0sp" android:textColor="@android:color/darker_gray" android:layout_gravity="center" android:tag="binding_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="6.0dp" app:customFont="proTextRegular" />
+    </LinearLayout>
+</FrameLayout>

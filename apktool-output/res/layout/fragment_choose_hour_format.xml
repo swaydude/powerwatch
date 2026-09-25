@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_choose_hour_format_0" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/main_toolbar" />
+    <LinearLayout android:orientation="horizontal" android:tag="binding_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dp" android:layout_marginStart="30.0dp" android:layout_marginEnd="30.0dp">
+        <TextView android:textSize="24.0sp" android:textColor="@color/white" android:id="@id/unit_type_metric" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/twelve_clock" android:layout_weight="3.0" />
+        <RadioButton android:textSize="18.0sp" android:id="@id/checked_button_metric" android:tag="binding_2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="@color/grey" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="10.0dp" android:layout_marginStart="30.0dp" android:layout_marginEnd="30.0dp" />
+    <LinearLayout android:orientation="horizontal" android:tag="binding_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dp" android:layout_marginStart="30.0dp" android:layout_marginEnd="30.0dp">
+        <TextView android:textSize="24.0sp" android:textColor="@color/white" android:id="@id/unit_type_imperial" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/twenty_four_clock" android:layout_weight="3.0" />
+        <RadioButton android:textSize="18.0sp" android:id="@id/checked_button_imperial" android:tag="binding_4" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View android:background="@color/grey" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="10.0dp" android:layout_marginStart="30.0dp" android:layout_marginEnd="30.0dp" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+package com.google.firebase.components;
+
+/* JADX INFO: compiled from: com.google.firebase:firebase-components@@16.0.0 */
+/* JADX INFO: loaded from: classes2.dex */
+final /* synthetic */ class ComponentRuntime$$Lambda$5 implements com.google.firebase.inject.Provider {
+    private static final com.google.firebase.components.ComponentRuntime$$Lambda$5 instance = new com.google.firebase.components.ComponentRuntime$$Lambda$5();
+
+    private ComponentRuntime$$Lambda$5() {
+    }
+
+    @Override // com.google.firebase.inject.Provider
+    public java.lang.Object get() {
+        return java.util.Collections.emptySet();
+    }
+}

@@ -1,0 +1,8 @@
+package powerwatch.matrix.com.pwgen2android.shared.data.repositories;
+
+/* JADX INFO: compiled from: GoalConfigurationRepository.kt */
+/* JADX INFO: loaded from: classes3.dex */
+@kotlin.Metadata(d1 = {"\u0000 \n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000b\n\u0000\bf\u0018\u00002\b\u0012\u0004\u0012\u00020\u00020\u00012\b\u0012\u0004\u0012\u00020\u00020\u00032\b\u0012\u0004\u0012\u00020\u00020\u00042\u00020\u0005J\b\u0010\u0006\u001a\u00020\u0007H&¨\u0006\b"}, d2 = {"Lpowerwatch/matrix/com/pwgen2android/shared/data/repositories/GoalConfigurationRepository;", "Lpowerwatch/matrix/com/pwgen2android/shared/data/repositories/AddRepository;", "Lpowerwatch/matrix/com/pwgen2android/shared/data/models/GoalConfiguration;", "Lpowerwatch/matrix/com/pwgen2android/shared/data/repositories/AllRepository;", "Lpowerwatch/matrix/com/pwgen2android/shared/data/repositories/ObserveRepository;", "Lpowerwatch/matrix/com/pwgen2android/shared/data/repositories/DeleteAllRepository;", "isEmpty", "", "app_release"}, k = 1, mv = {1, 5, 1}, xi = 48)
+public interface GoalConfigurationRepository extends powerwatch.matrix.com.pwgen2android.shared.data.repositories.AddRepository<powerwatch.matrix.com.pwgen2android.shared.data.models.GoalConfiguration>, powerwatch.matrix.com.pwgen2android.shared.data.repositories.AllRepository<powerwatch.matrix.com.pwgen2android.shared.data.models.GoalConfiguration>, powerwatch.matrix.com.pwgen2android.shared.data.repositories.ObserveRepository<powerwatch.matrix.com.pwgen2android.shared.data.models.GoalConfiguration>, powerwatch.matrix.com.pwgen2android.shared.data.repositories.DeleteAllRepository {
+    boolean isEmpty();
+}

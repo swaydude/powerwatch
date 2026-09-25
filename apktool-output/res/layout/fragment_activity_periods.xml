@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:tag="layout/fragment_activity_periods_0" android:background="@color/black" android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/main_toolbar" />
+    <LinearLayout android:orientation="vertical" android:paddingTop="20.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/rounded_grey_background" android:paddingTop="5.0dp" android:paddingBottom="5.0dp" android:layout_width="match_parent" android:layout_height="50.0dp" android:paddingStart="20.0dp" android:paddingEnd="20.0dp" android:layout_marginStart="20.0dp" android:layout_marginEnd="20.0dp">
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="12.0sp" android:textStyle="bold" android:gravity="center" android:tag="binding_1" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/day" android:layout_weight="6.0" app:customFont="proDisplayBold" />
+            <View android:layout_gravity="center_vertical" android:background="@android:color/darker_gray" android:layout_width="1.0dp" android:layout_height="10.0dp" />
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="12.0sp" android:textStyle="bold" android:gravity="center" android:tag="binding_2" android:layout_width="0.0dp" android:layout_height="wrap_content" android:text="@string/week" android:layout_weight="6.0" app:customFont="proDisplayBold" />
+            <View android:layout_gravity="center_vertical" android:background="@android:color/darker_gray" android:layout_width="1.0dp" android:layout_height="10.0dp" />
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textSize="12.0sp" android:textStyle="bold" android:gravity="center" android:tag="binding_3" android:layout_width="0.0dp" android:layout_height="match_parent" android:text="@string/month" android:layout_weight="6.0" app:customFont="proDisplayBold" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:padding="10.0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:tag="binding_4" android:layout_width="0.0dp" android:src="@drawable/left_arrow_grey" style="@style/arrowButtonStyle" />
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textColor="@color/white" android:gravity="center" android:layout_gravity="center" android:tag="binding_5" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="8.0" app:customFont="light" />
+            <ImageView android:layout_gravity="center" android:tag="binding_6" android:layout_width="0.0dp" android:src="@drawable/right_arrow_grey" style="@style/arrowButtonStyle" />
+        </LinearLayout>
+        <View android:background="@android:color/darker_gray" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginStart="10.0dp" android:layout_marginEnd="10.0dp" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/header_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:paddingStart="10.0dp" android:paddingEnd="10.0dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="5.0dp" android:paddingEnd="5.0dp">
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textColor="@android:color/darker_gray" android:id="@id/first_header_value_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:customFont="bold" style="@style/activityDataText" />
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:id="@id/first_header_value_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:customFont="light" style="@style/activityDataValue" />
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textColor="@android:color/darker_gray" android:id="@id/third_header_value_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:customFont="bold" style="@style/activityDataText" />
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:id="@id/third_header_value_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:customFont="light" style="@style/activityDataValue" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dp" android:layout_height="wrap_content" android:layout_weight="1.0" android:paddingStart="5.0dp" android:paddingEnd="5.0dp">
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textColor="@android:color/darker_gray" android:id="@id/second_header_value_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:customFont="bold" style="@style/activityDataText" />
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:id="@id/second_header_value_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:customFont="light" style="@style/activityDataValue" />
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:textColor="@android:color/darker_gray" android:id="@id/fourth_header_value_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:customFont="bold" style="@style/activityDataText" />
+            <powerwatch.matrix.com.pwgen2android.shared.ui.views.FontableTextView android:id="@id/fourth_header_value_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:customFont="light" style="@style/activityDataValue" />
+        </LinearLayout>
+    </LinearLayout>
+    <powerwatch.matrix.com.pwgen2android.shared.ui.views.LockableViewPager android:id="@id/chart_pager" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>
