@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'PowerWatch2' in project 'PowerWatch2' (no dependencies)

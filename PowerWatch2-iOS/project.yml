@@ -1,0 +1,74 @@
+name: PowerWatch2
+options:
+  bundleIdPrefix: com.matrixindustries
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+    SWIFT_VERSION: "5.0"
+    SWIFT_STRICT_CONCURRENCY: minimal
+    ENABLE_USER_SCRIPT_SANDBOXING: "YES"
+    CODE_SIGNING_ALLOWED: "NO"
+    CODE_SIGNING_REQUIRED: "NO"
+    CODE_SIGN_IDENTITY: ""
+
+targets:
+  PowerWatch2:
+    type: application
+    platform: iOS
+    sources:
+      - path: Sources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.matrixindustries.powerwatch2.ios
+        INFOPLIST_FILE: Support/Info.plist
+        GENERATE_INFOPLIST_FILE: "NO"
+        TARGETED_DEVICE_FAMILY: "1,2"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+    info:
+      path: Support/Info.plist
+      properties:
+        CFBundleDisplayName: PowerWatch2
+        CFBundleShortVersionString: "1.5.6"
+        CFBundleVersion: "197"
+        CFBundlePackageType: APPL
+        CFBundleExecutable: $(EXECUTABLE_NAME)
+        CFBundleIdentifier: $(PRODUCT_BUNDLE_IDENTIFIER)
+        LSRequiresIPhoneOS: true
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UIRequiredDeviceCapabilities:
+          - bluetooth-le
+        # Bluetooth usage strings are the iOS equivalent of the APK's
+        # BLUETOOTH_SCAN / BLUETOOTH_CONNECT / ACCESS_FINE_LOCATION permissions
+        # (see AndroidManifest.xml of powerwatch.matrix.com.pwgen2android).
+        NSBluetoothAlwaysUsageDescription: "PowerWatch2 uses Bluetooth to connect to your PowerWatch 2 so it can sync activity, heart rate, temperature and power data."
+        NSBluetoothPeripheralUsageDescription: "PowerWatch2 uses Bluetooth to connect to your PowerWatch 2."
+        NSLocationWhenInUseUsageDescription: "PowerWatch2 needs location access so it can scan for nearby Bluetooth Low Energy PowerWatch devices."
+        # The pairing-code scanner (`QRScannerView`) is the iOS counterpart of the
+        # APK's `pair/camera/` ML Kit barcode reader used by `QRPairingFragment`.
+        NSCameraUsageDescription: "PowerWatch2 uses the camera once, to read the pairing code your PowerWatch 2 shows in Show QR mode, so it can tell your watch from other PowerWatches nearby."
+        # The app performs no network requests. No ATS exceptions are declared.
+        UIBackgroundModes:
+          - bluetooth-central
+
+  PowerWatch2Tests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: Tests
+    dependencies:
+      - target: PowerWatch2
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.matrixindustries.powerwatch2.ios.tests
+        GENERATE_INFOPLIST_FILE: "NO"
+        INFOPLIST_FILE: Tests/Info.plist
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/PowerWatch2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PowerWatch2"
+        BUNDLE_LOADER: "$(TEST_HOST)"

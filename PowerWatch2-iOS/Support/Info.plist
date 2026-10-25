@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>PowerWatch2</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.5.6</string>
+	<key>CFBundleVersion</key>
+	<string>197</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>PowerWatch2 uses Bluetooth to connect to your PowerWatch 2 so it can sync activity, heart rate, temperature and power data.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>PowerWatch2 uses Bluetooth to connect to your PowerWatch 2.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>PowerWatch2 uses the camera once, to read the pairing code your PowerWatch 2 shows in Show QR mode, so it can tell your watch from other PowerWatches nearby.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>PowerWatch2 needs location access so it can scan for nearby Bluetooth Low Energy PowerWatch devices.</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+	</array>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>bluetooth-le</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,23 @@
+{
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Cloud/LocalOnlyCloudAPI.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LocalOnlyCloudAPI.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LocalOnlyCloudAPI.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LocalOnlyCloudAPI.dia",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LocalOnlyCloudAPI.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LocalOnlyCloudAPI.swiftdeps"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Store/KeychainStore.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/KeychainStore.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/KeychainStore.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/KeychainStore.dia",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/KeychainStore.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/KeychainStore.swiftdeps"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Views/History/HistoryView.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/HistoryView.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/HistoryView.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/HistoryView.dia",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/HistoryView.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/HistoryView.swiftdeps"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/App/AppEnvironment.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/AppEnvironment.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/AppEnvironment.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/AppEnvironment.dia",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/AppEnvironment.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/AppEnvironment.swiftdeps"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/BLE/BLETransport.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/BLETransport.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/BLETransport.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/BLETransport.dia",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/BLETransport.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/BLETransport.swiftdeps"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Utils/ActivityExport.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ActivityExport.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ActivityExport.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ActivityExport.dia",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ActivityExport.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ActivityExport.swiftdeps"
+  }
+}

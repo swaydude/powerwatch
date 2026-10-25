@@ -1,0 +1,23 @@
+{
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/BLE/Gen2Commands.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Commands.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Commands.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Commands.dia",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Commands.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Commands.swiftdeps"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/BLE/Gen2Framing.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Framing.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Framing.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Framing.dia",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Framing.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Framing.swiftdeps"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/BLE/Gen2ResponseCollector.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2ResponseCollector.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2ResponseCollector.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2ResponseCollector.dia",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2ResponseCollector.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2ResponseCollector.swiftdeps"
+  }
+}

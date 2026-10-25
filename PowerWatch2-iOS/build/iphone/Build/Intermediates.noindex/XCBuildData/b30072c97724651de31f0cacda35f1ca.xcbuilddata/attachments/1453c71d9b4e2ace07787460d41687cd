@@ -1,0 +1,329 @@
+{
+  "" : {
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PowerWatch2-primary.dia",
+    "emit-module-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PowerWatch2-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PowerWatch2-primary-emit-module.dia",
+    "pch" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PowerWatch2-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PowerWatch2-primary.swiftdeps"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/App/AppEnvironment.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/AppEnvironment.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/AppEnvironment.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/AppEnvironment.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/AppEnvironment.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/AppEnvironment.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/AppEnvironment.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/AppEnvironment.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/AppEnvironment~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/App/RootView.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/RootView.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/RootView.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/RootView.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/RootView.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/RootView.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/RootView.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/RootView.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/RootView~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/BLE/BLETransport.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/BLETransport.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/BLETransport.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/BLETransport.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/BLETransport.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/BLETransport.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/BLETransport.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/BLETransport.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/BLETransport~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/BLE/Gen2Commands.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Commands.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Commands.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Commands.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Commands.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Commands.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Commands.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Commands.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Commands~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/BLE/Gen2Framing.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Framing.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Framing.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Framing.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Framing.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Framing.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Framing.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Framing.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2Framing~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/BLE/Gen2InfoRecords.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2InfoRecords.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2InfoRecords.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2InfoRecords.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2InfoRecords.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2InfoRecords.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2InfoRecords.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2InfoRecords.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2InfoRecords~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/BLE/Gen2ResponseCollector.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2ResponseCollector.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2ResponseCollector.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2ResponseCollector.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2ResponseCollector.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2ResponseCollector.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2ResponseCollector.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2ResponseCollector.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Gen2ResponseCollector~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/BLE/LogTables.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LogTables.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LogTables.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LogTables.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LogTables.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LogTables.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LogTables.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LogTables.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LogTables~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/BLE/SimulatedTransport.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SimulatedTransport.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SimulatedTransport.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SimulatedTransport.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SimulatedTransport.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SimulatedTransport.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SimulatedTransport.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SimulatedTransport.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SimulatedTransport~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/BLE/SyntheticWatchData.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SyntheticWatchData.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SyntheticWatchData.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SyntheticWatchData.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SyntheticWatchData.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SyntheticWatchData.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SyntheticWatchData.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SyntheticWatchData.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SyntheticWatchData~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/BLE/WatchTransport.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchTransport.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchTransport.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchTransport.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchTransport.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchTransport.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchTransport.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchTransport.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchTransport~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Cloud/LocalOnlyCloudAPI.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LocalOnlyCloudAPI.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LocalOnlyCloudAPI.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LocalOnlyCloudAPI.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LocalOnlyCloudAPI.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LocalOnlyCloudAPI.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LocalOnlyCloudAPI.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LocalOnlyCloudAPI.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LocalOnlyCloudAPI~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Models/DomainModels.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/DomainModels.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/DomainModels.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/DomainModels.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/DomainModels.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/DomainModels.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/DomainModels.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/DomainModels.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/DomainModels~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Models/WatchSettings.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchSettings.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchSettings.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchSettings.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchSettings.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchSettings.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchSettings.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchSettings.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchSettings~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Store/KeychainStore.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/KeychainStore.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/KeychainStore.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/KeychainStore.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/KeychainStore.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/KeychainStore.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/KeychainStore.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/KeychainStore.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/KeychainStore~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Store/LocalStore.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LocalStore.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LocalStore.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LocalStore.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LocalStore.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LocalStore.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LocalStore.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LocalStore.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/LocalStore~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Sync/PeriodAggregator.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PeriodAggregator.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PeriodAggregator.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PeriodAggregator.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PeriodAggregator.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PeriodAggregator.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PeriodAggregator.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PeriodAggregator.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PeriodAggregator~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Sync/RealtimeDataProvider.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/RealtimeDataProvider.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/RealtimeDataProvider.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/RealtimeDataProvider.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/RealtimeDataProvider.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/RealtimeDataProvider.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/RealtimeDataProvider.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/RealtimeDataProvider.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/RealtimeDataProvider~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Sync/WatchSynchronizer.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchSynchronizer.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchSynchronizer.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchSynchronizer.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchSynchronizer.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchSynchronizer.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchSynchronizer.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchSynchronizer.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/WatchSynchronizer~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Utils/ActivityExport.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ActivityExport.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ActivityExport.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ActivityExport.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ActivityExport.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ActivityExport.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ActivityExport.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ActivityExport.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ActivityExport~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Utils/ApkStrings.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ApkStrings.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ApkStrings.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ApkStrings.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ApkStrings.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ApkStrings.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ApkStrings.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ApkStrings.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ApkStrings~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Utils/Formatters.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Formatters.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Formatters.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Formatters.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Formatters.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Formatters.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Formatters.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Formatters.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/Formatters~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Utils/PairCode.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PairCode.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PairCode.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PairCode.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PairCode.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PairCode.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PairCode.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PairCode.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PairCode~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Utils/ShareSheet.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ShareSheet.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ShareSheet.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ShareSheet.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ShareSheet.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ShareSheet.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ShareSheet.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ShareSheet.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/ShareSheet~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Views/Common/SharedComponents.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SharedComponents.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SharedComponents.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SharedComponents.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SharedComponents.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SharedComponents.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SharedComponents.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SharedComponents.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/SharedComponents~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Views/Dashboard/DashboardView.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/DashboardView.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/DashboardView.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/DashboardView.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/DashboardView.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/DashboardView.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/DashboardView.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/DashboardView.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/DashboardView~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Views/History/HistoryView.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/HistoryView.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/HistoryView.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/HistoryView.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/HistoryView.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/HistoryView.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/HistoryView.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/HistoryView.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/HistoryView~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Views/MyPowerWatch/MyPowerWatchView.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/MyPowerWatchView.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/MyPowerWatchView.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/MyPowerWatchView.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/MyPowerWatchView.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/MyPowerWatchView.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/MyPowerWatchView.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/MyPowerWatchView.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/MyPowerWatchView~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Views/Onboarding/OnboardingFlow.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/OnboardingFlow.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/OnboardingFlow.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/OnboardingFlow.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/OnboardingFlow.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/OnboardingFlow.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/OnboardingFlow.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/OnboardingFlow.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/OnboardingFlow~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Views/Pairing/PairingView.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PairingView.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PairingView.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PairingView.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PairingView.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PairingView.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PairingView.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PairingView.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/PairingView~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/Sources/Views/Pairing/QRScannerView.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/QRScannerView.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/QRScannerView.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/QRScannerView.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/QRScannerView.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/QRScannerView.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/QRScannerView.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/QRScannerView.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/QRScannerView~partial.swiftmodule"
+  },
+  "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/swanky/rea-power/PowerWatch2-iOS/build/iphone/Build/Intermediates.noindex/PowerWatch2.build/Debug-iphoneos/PowerWatch2.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}
