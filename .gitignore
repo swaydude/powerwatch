@@ -1,5 +1,5 @@
 .DS_Store
-ios/.build/
-ios/build/
-ios/buildDevice/
-ios/buildRelease/
+PowerWatch2-iOS/.build/
+PowerWatch2-iOS/build/
+PowerWatch2-iOS/buildDevice/
+PowerWatch2-iOS/buildRelease/
